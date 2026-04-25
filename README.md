@@ -6,7 +6,7 @@
 
 **GenAI & Agentic AI Architect · Strategic AI Leader · Data-Driven Builder**
 
-10+ years in IT &nbsp;|&nbsp; MBA — Operations & Supply Chain, Liverpool Business School, UK
+10+ years in IT &nbsp;|&nbsp; MBA — Operations & Supply Chain, Liverpool Business School, United Kingdom
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
