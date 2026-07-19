@@ -10,7 +10,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
-[![GitHub followers](https://img.shields.io/github/followers/rkfshakti?label=Follow&style=flat&logo=github)](https://github.com/rkfshakti)
 
 </div>
 
