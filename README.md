@@ -6,7 +6,7 @@
 
 **GenAI & Agentic AI Architect · Strategic AI Leader · Data-Driven Builder**
 
-10+ years in IT &nbsp;|&nbsp; MBA — Operations & Supply Chain, Liverpool Business School, United Kingdom
+10+ years in IT &nbsp;|&nbsp; MBA, Operations & Supply Chain, Liverpool Business School, UK &nbsp;|&nbsp; India
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
@@ -18,38 +18,56 @@
 
 ## Who I Am
 
-I am an Architect who lives and breathes data.
+I am an architect who lives and breathes data.
 
-Not the kind who draws boxes on whiteboards and calls it a day. The kind who sits with the numbers, finds what they are actually saying, and builds systems that make organisations act on it — autonomously, at scale, reliably.
+Not the kind who draws boxes on whiteboards and calls it a day. The kind who sits with the numbers, finds what they are actually saying, and builds systems that make organisations act on it. Autonomously. At scale. Reliably.
 
-Over 10 years in IT, I have moved from business analyst to GenAI architect — always following the data. I have led cross-functional teams, managed delivery across geographies including the United States and Middle East, engaged C-suite stakeholders on AI strategy, and driven real transformation in financial services (BFSI), consumer goods (CPG), energy (EPG), and healthcare (HLM).
+Over 10 years in IT, I have moved from business analyst to GenAI architect, always following the data. I have led cross-functional teams, managed delivery across geographies including the United States and Middle East, engaged C-suite stakeholders on AI strategy, and driven real transformation in financial services (BFSI), consumer goods (CPG), energy (EPG), and healthcare (HLM).
 
-I did my MBA in Operations & Supply Chain at Liverpool Business School, UK — not to step away from technology, but to understand the business problems well enough to solve them with it.
+I did my MBA in Operations & Supply Chain at Liverpool Business School, UK. Not to step away from technology, but to understand the business problems well enough to solve them with it.
 
-What drives me is not the hype around AI. It is the measurable outcome. The 10-day process that becomes 2 hours. The 3% error rate that drops to under 0.5%. The alert noise that gets cut by 30%. Those numbers are what make this work real.
+What drives me is not the hype around AI. It is the measurable outcome. The 10 day process that becomes 2 hours. The 3% error rate that drops to under 0.5%. The alert noise that gets cut by 30%. Those numbers are what make this work real.
 
-I believe the best AI systems are the ones nobody notices — because they just work.
+I believe the best AI systems are the ones nobody notices, because they just work.
 
 ---
 
 ## What I Build
 
-I operate where **enterprise complexity meets agentic AI** — designing systems that reason, plan, and act without hand-holding.
+I operate where enterprise complexity meets agentic AI, designing systems that reason, plan, and act without hand holding.
 
 ```
-Multi-Agent Orchestration    →  LangGraph · LangChain · Temporal · MCP
-RAG & Knowledge Systems      →  Agentic RAG · Text2SQL · Document Intelligence
-LLM Platform Architecture    →  AWS Bedrock · Azure OpenAI · Google Vertex AI
-Vector Search Infrastructure →  Pinecone · FAISS · ChromaDB · Azure AI Search
-Real-Time ML Pipelines       →  Streaming intelligence at production scale
-Enterprise AI Governance     →  Ethical AI · Model Risk Management · Audit-Ready Systems
-SLM Fine-Tuning              →  Task-specific small models for enterprise constraints
-API-Driven AI Workflows      →  FastAPI · Microservices · CI/CD · Multi-cloud
+Multi-Agent Orchestration      LangGraph · LangChain · Temporal · MCP · A2A Protocol
+Agentic RAG & Knowledge        Agentic RAG · Text2SQL · Document Intelligence DB
+LLM Platform Architecture      AWS Bedrock · Azure OpenAI · Google Vertex AI
+Vector Search Infrastructure    Pinecone · FAISS · ChromaDB · Azure AI Search · Anova DB
+Real-Time ML Pipelines          Streaming intelligence at production scale
+Enterprise AI Governance        Ethical AI · Model Risk Management · Audit Ready Systems
+SLM Fine-Tuning                 Task specific small models for enterprise constraints
+API-Driven AI Workflows         FastAPI · Microservices · CI/CD · Multi-cloud
+Agent Frameworks                Hermes Agent · Pi Agent · CrewAI · AutoGen · Semantic Kernel
+Embedding & Retrieval           Gemini Embedding 001 · Text Embedding 002 · Page Index
+Notification & Queue            AWS SES · Celery · Redis Queue · Kafka
 ```
 
 **I take on freelance and collaborative projects.**
 
-If you are a company looking to implement GenAI seriously — not a pilot, but production — or a founder with a product idea that needs AI architecture, or an investor looking for a technical co-builder in the AI space: I am open to the conversation.
+If you are a company looking to implement GenAI seriously, not a pilot but production, or a founder with a product idea that needs AI architecture, or an investor looking for a technical co builder in the AI space, I am open to the conversation.
+
+---
+
+## Open Source Contributions
+
+I actively contribute to the GenAI and Agentic AI open source ecosystem. My focus is on fixing real bugs in production grade AI infrastructure.
+
+| Repo | Stars | What I Fixed |
+|------|-------|-------------|
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 20K+ | PersistentClient path normalization, conftest fixture registration, unused dependency removal, example fixes |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | write_file path validation for cwd shaped relative paths |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 142K+ | CancelledError guard, TracerCore copy fix, default_tools mutation, LogStream send return |
+| [langgenius/dify](https://github.com/langgenius/dify) | 80K+ | OAuth trigger credentials optional for polling |
+| [openai/openai-python](https://github.com/openai/openai-python) | 30K+ | None response.output guard in parse_response |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 152K+ | README community link fix |
 
 ---
 
@@ -65,6 +83,7 @@ If you are a company looking to implement GenAI seriously — not a pilot, but p
 ![MCP](https://img.shields.io/badge/MCP%20Protocol-6A0DAD?style=flat&logoColor=white)
 ![A2A](https://img.shields.io/badge/A2A%20Protocol-4285F4?style=flat&logo=google&logoColor=white)
 ![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat&logoColor=white)
+![Hermes Agent](https://img.shields.io/badge/Hermes%20Agent-217K★-6A0DAD?style=flat&logoColor=white)
 
 ### LLMs & Model Platforms
 ![Claude](https://img.shields.io/badge/Claude%20(Anthropic)-D97757?style=flat&logoColor=white)
@@ -87,6 +106,18 @@ If you are a company looking to implement GenAI seriously — not a pilot, but p
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat&logoColor=white)
 ![Azure AI Search](https://img.shields.io/badge/Azure%20AI%20Search-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat&logo=postgresql&logoColor=white)
+
+### Embeddings & Retrieval
+![Gemini Embedding](https://img.shields.io/badge/Gemini%20Embedding%20001-8E44AD?style=flat&logo=google&logoColor=white)
+![Text Embedding 002](https://img.shields.io/badge/Text%20Embedding%20002-4285F4?style=flat&logo=google&logoColor=white)
+![Page Index](https://img.shields.io/badge/Page%20Index-FF6B35?style=flat&logoColor=white)
+![Document Intelligence DB](https://img.shields.io/badge/Document%20Intelligence%20DB-6A0DAD?style=flat&logoColor=white)
+
+### Notification & Queue Infrastructure
+![AWS SES](https://img.shields.io/badge/AWS%20SES-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
 
 ### Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -132,7 +163,7 @@ If you are a company looking to implement GenAI seriously — not a pilot, but p
 
 I am open to talking about **architecture challenges, enterprise AI strategy, freelance engagements, or startup ideas** in the GenAI space.
 
-If you are building something that matters — let's talk.
+If you are building something that matters, let's talk.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shakti%20Prasad%20Mohapatra-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
 [![Email](https://img.shields.io/badge/Email-Get%20in%20touch-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
