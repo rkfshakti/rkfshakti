@@ -72,7 +72,7 @@ I actively contribute to the GenAI and Agentic AI open source ecosystem. My focu
 
 ## Recent Impact
 
-Here is what I have been working on recently — bugs that were subtle, silent, and took real digging to find.
+Here is what I have been working on recently.
 
 **Workflow trace misattribution in parallel branches** — When a Dify workflow node executed multiple times in parallel branches, the `node_started` and `agent_log` handlers matched trace entries by `node_id` (the definition identifier) instead of the unique execution `id`. Started and finished events for the same execution silently landed on different trace entries. The fix: match by execution id first, fall back to `node_id` only for backward compatibility. Added regression tests that fail on the old code. → [dify #39313](https://github.com/langgenius/dify/pull/39313)
 
