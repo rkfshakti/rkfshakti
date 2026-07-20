@@ -57,16 +57,49 @@ If you are a company looking to implement GenAI seriously, not a pilot but produ
 
 ## Open Source Contributions
 
-I actively contribute to the GenAI and Agentic AI open source ecosystem. My focus is on fixing real bugs in production grade AI infrastructure.
+I actively contribute to the GenAI and Agentic AI open source ecosystem. My focus is on fixing real bugs in production grade AI infrastructure — the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale.
 
 | Repo | Stars | What I Fixed |
 |------|-------|-------------|
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 20K+ | PersistentClient path normalization, conftest fixture registration, unused dependency removal, example fixes |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | write_file path validation for cwd shaped relative paths |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 28.8K | PersistentClient path normalization, conftest fixture registration, unused dependency removal, example fixes |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | write_file path validation for cwd shaped relative paths, Telegram send_document basename fix |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 142K+ | CancelledError guard, TracerCore copy fix, default_tools mutation, LogStream send return |
-| [langgenius/dify](https://github.com/langgenius/dify) | 80K+ | OAuth trigger credentials optional for polling |
-| [openai/openai-python](https://github.com/openai/openai-python) | 30K+ | None response.output guard in parse_response |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 152K+ | README community link fix |
+| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | OAuth trigger credentials optional for polling, workflow parallel trace misattribution fix |
+| [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | None response.output guard in parse_response, NO_PROXY newline sanitization |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | README community link fix, ignoreRobotsTxt forwarding in crawl payload |
+
+---
+
+## Recent Impact
+
+Here is what I have been working on recently — bugs that were subtle, silent, and took real digging to find.
+
+**Workflow trace misattribution in parallel branches** — When a Dify workflow node executed multiple times in parallel branches, the `node_started` and `agent_log` handlers matched trace entries by `node_id` (the definition identifier) instead of the unique execution `id`. Started and finished events for the same execution silently landed on different trace entries. The fix: match by execution id first, fall back to `node_id` only for backward compatibility. Added regression tests that fail on the old code. → [dify #39313](https://github.com/langgenius/dify/pull/39313)
+
+**Streamed output lost when response.completed has null output** — The OpenAI Python SDK silently dropped streamed content when the final `response.completed` event carried a null `output` field. The snapshot never reflected the accumulated stream data. The fix: guard the null-output fallback in the streaming accumulator so the snapshot serializes the real accumulated output. → [openai-python #3517](https://github.com/openai/openai-python/pull/3517)
+
+**Newlines in NO_PROXY env var breaking httpx client init** — The `NO_PROXY` environment variable with newline-separated entries caused httpx to fail during client initialization. The fix: sanitize newlines before passing to httpx. → [openai-python #3519](https://github.com/openai/openai-python/pull/3519)
+
+**TracerCore copy returning self instead of a real copy** — LangChain's `_TracerCore.__copy__` returned `self`, so concurrent chain runs corrupted each other's trace data. The fix: allocate fresh internal dicts on copy. → [langchain #38964](https://github.com/langchain-ai/langchain/pull/38964)
+
+**Telegram send_document silent delivery failure** — Hermes Agent's Telegram integration failed silently when sending documents because the basename was not explicitly passed. The fix: pass explicit basename to the send_document API. → [hermes-agent #68107](https://github.com/NousResearch/hermes-agent/pull/68107)
+
+**ignoreRobotsTxt not forwarded in crawl payload** — Firecrawl's JavaScript SDK ignored the `ignoreRobotsTxt` option when constructing crawl payloads, causing crawls to always respect robots.txt regardless of the setting. → [firecrawl #4087](https://github.com/firecrawl/firecrawl/pull/4087)
+
+---
+
+## How I Approach a Bug Fix
+
+Every bug I fix follows the same discipline:
+
+1. **Understand the full call chain** — not just where the error surfaces, but where the root cause originates. I read at least 50 lines above and below the change site.
+2. **Check for similar patterns** — grep the codebase for the same bug pattern elsewhere. If it happened once, it probably happened twice.
+3. **Fix the root cause, not the symptom** — adding a null check without understanding *why* the value is null is not a fix.
+4. **Add a regression test** — the test must fail on the old code and pass with the fix. This prevents the bug from recurring silently.
+5. **Keep the change minimal** — no refactoring, no style changes, no unrelated improvements. The diff should show exactly what needed to change.
+6. **Write the PR description like a human** — explain the problem, the root cause, and the fix in natural language. No bullet-point vomit, no robotic phrases.
+
+This is not the fastest way to fix a bug. But it is the only way I trust.
 
 ---
 
