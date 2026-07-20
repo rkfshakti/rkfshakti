@@ -87,22 +87,6 @@ Here is what I have been working on recently — bugs that were subtle, silent, 
 **ignoreRobotsTxt not forwarded in crawl payload** — Firecrawl's JavaScript SDK ignored the `ignoreRobotsTxt` option when constructing crawl payloads, causing crawls to always respect robots.txt regardless of the setting. → [firecrawl #4087](https://github.com/firecrawl/firecrawl/pull/4087)
 
 ---
-
-## How I Approach a Bug Fix
-
-Every bug I fix follows the same discipline:
-
-1. **Understand the full call chain** — not just where the error surfaces, but where the root cause originates. I read at least 50 lines above and below the change site.
-2. **Check for similar patterns** — grep the codebase for the same bug pattern elsewhere. If it happened once, it probably happened twice.
-3. **Fix the root cause, not the symptom** — adding a null check without understanding *why* the value is null is not a fix.
-4. **Add a regression test** — the test must fail on the old code and pass with the fix. This prevents the bug from recurring silently.
-5. **Keep the change minimal** — no refactoring, no style changes, no unrelated improvements. The diff should show exactly what needed to change.
-6. **Write the PR description like a human** — explain the problem, the root cause, and the fix in natural language. No bullet-point vomit, no robotic phrases.
-
-This is not the fastest way to fix a bug. But it is the only way I trust.
-
----
-
 ## Tech Stack
 
 ### AI / GenAI & Orchestration
