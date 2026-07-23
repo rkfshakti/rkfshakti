@@ -1,22 +1,29 @@
 <div align="center">
 
-# Shakti Prasad Mohapatra
+<!-- Visitor Badge -->
+<img src="https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&color=6A0DAD&style=flat-square" alt="Profile Views" />
 
-### *Intelligence is the new infrastructure. I'm the architect.*
+<!-- Typing SVG -->
+<a href="https://github.com/rkfshakti">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6A0DAD&center=true&vCenter=true&width=700&lines=GenAI+%26+Agentic+AI+Architect;Open+Source+Contributor;Data-Driven+Builder;Intelligence+is+the+new+infrastructure" alt="Typing SVG" />
+</a>
 
-**GenAI & Agentic AI Architect · Open Source Contributor · Data-Driven Builder**
+<!-- Social Badges -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
+[![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
 
-10+ years in IT &nbsp;|&nbsp; MBA, Operations & Supply Chain, Liverpool Business School, UK &nbsp;|&nbsp; India
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
+**10+ years in IT** &nbsp;|&nbsp; **MBA, Operations & Supply Chain, Liverpool Business School, UK** &nbsp;|&nbsp; **India**
 
 </div>
 
 ---
 
-## Who I Am
+<!-- Section: Who I Am -->
+<div align="center">
+  <h2>👤 Who I Am</h2>
+</div>
 
 I am an architect who lives and breathes data.
 
@@ -30,27 +37,63 @@ What drives me: the 10-day process that becomes 2 hours. The 3% error rate that 
 
 ---
 
-## What I Build
+<!-- Section: What I Build -->
+<div align="center">
+  <h2>🛠️ What I Build</h2>
+</div>
 
 I operate where enterprise complexity meets agentic AI.
 
-```
-Multi-Agent Orchestration      LangGraph · LangChain · Temporal · MCP · A2A Protocol
-Agentic RAG & Knowledge        Agentic RAG · Text2SQL · Document Intelligence DB
-LLM Platform Architecture      AWS Bedrock · Azure OpenAI · Google Vertex AI
-Vector Search Infrastructure   Pinecone · FAISS · ChromaDB · Azure AI Search
-Real-Time ML Pipelines         Streaming intelligence at production scale
-Enterprise AI Governance       Ethical AI · Model Risk Management · Audit Ready Systems
-SLM Fine-Tuning               Task-specific small models for enterprise constraints
-API-Driven AI Workflows       FastAPI · Microservices · CI/CD · Multi-cloud
-Agent Frameworks              Hermes Agent · Pi Agent · CrewAI · AutoGen · Semantic Kernel
-```
+<div align="center">
+
+**Multi-Agent Orchestration**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-6A0DAD?style=flat-square)
+![A2A](https://img.shields.io/badge/A2A-FF6B35?style=flat-square)
+
+**LLM Platform Architecture**
+
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Google Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+
+**Vector Search Infrastructure**
+
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-00599C?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)
+![Azure AI Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+
+**Agent Frameworks**
+
+![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-6A0DAD?style=flat-square)
+![Pi Agent](https://img.shields.io/badge/Pi_Agent-FF6B35?style=flat-square)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF6B35?style=flat-square)
+![AutoGen](https://img.shields.io/badge/AutoGen-00599C?style=flat-square)
+![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-7121C6?style=flat-square)
+
+**API & Infrastructure**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</div>
+
+<br>
 
 **Open to freelance, collaboration, and technical co-founder conversations.**
 
 ---
 
-## Open Source Contributions
+<!-- Section: Open Source Contributions -->
+<div align="center">
+  <h2>🌟 Open Source Contributions</h2>
+</div>
 
 I fix real bugs in production-grade AI infrastructure — the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix — not a typo, not a docs tweak.
 
@@ -74,7 +117,10 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 ---
 
-## Recent Impact
+<!-- Section: Recent Impact -->
+<div align="center">
+  <h2>📈 Recent Impact</h2>
+</div>
 
 ### ✅ Merged
 
@@ -112,27 +158,55 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 ---
 
-## GitHub Stats
+<!-- Section: GitHub Stats -->
+<div align="center">
+  <h2>📊 GitHub Stats</h2>
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=rkfshakti&show_icons=true&hide_border=true&theme=transparent&title_color=6A0DAD&icon_color=FF6B35&text_color=666666&bg_color=00000000" alt="GitHub Stats" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkfshakti&layout=compact&hide_border=true&theme=transparent&title_color=6A0DAD&text_color=666666&bg_color=00000000" alt="Top Languages" height="170" />
+
+</div>
 
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=rkfshakti&hide_border=true&date_format=j%20M%5B%20Y%5D&background=00000000&stroke=6A0DAD&ring=6A0DAD&fire=FF6B35&currStreakLabel=6A0DAD)](https://git.io/streak-stats)
 
+</div>
+
+<div align="center">
+
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rkfshakti&theme=minimal&hide_border=true&color=6A0DAD&line=6A0DAD&point=FF6B35&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=rkfshakti&theme=transparent&no-frame=true&column=7&margin-w=15&margin-h=15&no-bg=true" alt="GitHub Trophies" />
 
 </div>
 
 ---
 
-## Let's Connect
+<!-- Section: Let's Connect -->
+<div align="center">
+  <h2>🤝 Let's Connect</h2>
+</div>
 
 I'm open to architecture challenges, enterprise AI strategy, freelance engagements, or startup ideas in the GenAI space.
 
 If you're building something that matters, let's talk.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
+[![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
+
+</div>
 
 ---
 
