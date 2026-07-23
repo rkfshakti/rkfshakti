@@ -25,7 +25,7 @@
   <h2>Who I Am</h2>
 </div>
 
-I am an architect who lives and breathes data.
+Intelligence is the new infrastructure. I'm the architect.
 
 Not the kind who draws boxes on whiteboards. The kind who sits with the numbers, finds what they are actually saying, and builds systems that make organisations act on it. Autonomously. At scale. Reliably.
 
