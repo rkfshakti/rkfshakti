@@ -94,11 +94,11 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 | Repo | Stars | Impact |
 |------|-------|--------|
-| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **2 PRs merged** — email validator fix, audio-to-text 400 error. Open: MCP timeout fix, Agent node completion params |
+| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **2 PRs merged** — email validator fix, audio-to-text 400 error. Open: MCP timeout fix, Agent node completion params, PG logical replication, system message ordering, agent files dropped |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) | 28.8K | 9 PRs — path normalization, fixture registration, NUL byte FTS5 corruption, include-list mutation, dependency cleanup, naming bugs |
 | [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | 4 PRs — null output guard, NO_PROXY sanitization, stream drain, list merge by logical index |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 3 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | 3 PRs — charset detection, ignoreRobotsTxt forwarding, community link fix |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 4 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard, model override rehydration |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | 4 PRs — charset detection, ignoreRobotsTxt forwarding, community link fix, batch pagination |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 61.5K+ | 2 PRs — ImportError pattern, embedding dim propagation |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 2 PRs — ACL raw-download for read-grant users, Postgres import guard |
 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 26.2K+ | 1 PR — npm path resolution with mise/asdf Node version managers |
@@ -109,6 +109,7 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 28.1K+ | 1 PR — incomplete tool call stream guard (closed, maintainer wanted repro) |
 | [earendil-works/pi](https://github.com/earendil-works/pi) | 76.1K+ | 1 PR — wl-copy exit code + xclip fallback (closed) |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | 10.4K+ | 1 PR — bound duplicate-metric recovery cost by batch size, not run history |
 
 ---
 
@@ -160,7 +161,26 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rkfshakti&show_icons=true&hide_border=true&theme=transparent&title_color=6A0DAD&icon_color=FF6B35&text_color=666666&bg_color=00000000" alt="GitHub Stats" height="170" />
+<!-- Static stats badges — always render, no external service dependency -->
+![Open PRs](https://img.shields.io/badge/Open_PRs-30-6A0DAD?style=flat-square)
+![Merged PRs](https://img.shields.io/badge/Merged_PRs-2-success?style=flat-square)
+![Public Repos](https://img.shields.io/badge/Repos-39-181717?style=flat-square&logo=github)
+![Total Stars](https://img.shields.io/badge/Stars-8-FF6B35?style=flat-square)
+![Followers](https://img.shields.io/badge/Followers-2-0A66C2?style=flat-square)
+
+</div>
+
+<div align="center">
+
+<!-- GitHub Stats card — may intermittently fail due to Vercel rate limits -->
+<img src="https://github-readme-stats.vercel.app/api?username=rkfshakti&show_icons=true&hide_border=true&theme=transparent&title_color=6A0DAD&icon_color=FF6B35&text_color=666666&bg_color=00000000" alt="GitHub Stats" height="170" onerror="this.style.display='none'" />
+
+</div>
+
+<div align="center">
+
+<!-- Top languages card -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkfshakti&layout=compact&hide_border=true&theme=transparent&title_color=6A0DAD&text_color=666666&bg_color=00000000" alt="Top Languages" height="170" onerror="this.style.display='none'" />
 
 </div>
 
