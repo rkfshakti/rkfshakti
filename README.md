@@ -64,6 +64,27 @@ I build the systems that make AI useful in production — not demos, not prototy
 
 ---
 
+<!-- Section: Governance & AI Ethics -->
+<div align="center">
+  <h2>Governance & AI Ethics</h2>
+</div>
+
+An architect who ships without a governance layer is shipping liability. I build AI systems that are not just capable but accountable — designed to pass audit, survive regulatory scrutiny, and earn the trust of the business and its customers.
+
+**Regulatory Alignment** — I design against the frameworks that matter in 2026: the **EU AI Act** (risk-tiered obligations, high-risk system conformity assessments, GPAI transparency duties, now in force), the **NIST AI Risk Management Framework** (Govern–Map–Measure–Manage lifecycle), and **ISO/IEC 42001** (the first certifiable AI management system standard). For any system touching EU users or regulated sectors, compliance is designed in from day one — not bolted on after launch.
+
+**Responsible AI by Design** — Bias detection and mitigation in training data and model outputs. Human-in-the-loop checkpoints for high-stakes decisions. Explainability and audit trails so every automated decision can be traced, justified, and challenged. Model cards and system documentation as living artifacts, not afterthoughts.
+
+**Agent Containment & Safety** — As agents grow more autonomous, blast radius grows with them. I design containment boundaries, permission scoping, and tool-use guardrails so an agent that goes off-script cannot take production systems with it. Inspired by Anthropic's containment research for Claude Code and Cowork.
+
+**Data Governance** — PII handling, retention policies, and data lineage that satisfy GDPR and sector-specific privacy regimes. Retrieval pipelines that respect access controls — no leaking privileged context across tenants or user boundaries.
+
+**Transparency & Disclosure** — AI-generated content labelling, chatbot disclosure, and deepfake detection readiness — aligned with the EU AI Act's transparency obligations taking effect August 2026.
+
+Governance is not a brake on innovation. It is the foundation that lets an enterprise deploy AI with confidence.
+
+---
+
 <!-- Section: Open Source Contributions -->
 <div align="center">
   <h2>Open Source Contributions</h2>
