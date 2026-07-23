@@ -153,31 +153,6 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 ---
 
-<!-- Section: Achievements & Badges -->
-<div align="center">
-  <h2>Achievements & Badges</h2>
-</div>
-
-<div align="center">
-
-| Badge | Status | Progress |
-|-------|--------|----------|
-| 🦈 **Pull Shark** | ✅ Bronze | 2/16 → Silver |
-| 🧙 **Open Sourcerer** | ✅ Bronze | 1/5 → Silver |
-| ⭐ **Starstruck** | 🔒 Locked | Need 16 stars on a repo |
-| 🔫 **Quickdraw** | 🔒 Locked | Close an issue/PR in 5 min |
-| 👥 **Pair Extraordinaire** | 🔒 Locked | Co-author a merged commit |
-| 🧠 **Galaxy Brain** | 🔒 Locked | Get 2 accepted discussion answers |
-| 🤘 **YOLO** | 🔒 Locked | Merge without review |
-| 💖 **Public Sponsor** | 🔒 Locked | Sponsor via GitHub Sponsors |
-| ❤️ **Heart On Your Sleeve** | 🔒 Locked | React with ❤️ |
-
-</div>
-
-**Account:** 11 years on GitHub &middot; **46 PRs** total &middot; **2 merged** &middot; **29 open** &middot; **15 repos**
-
----
-
 <!-- Section: GitHub Stats -->
 <div align="center">
   <h2>GitHub Stats</h2>
