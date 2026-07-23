@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- Visitor Badge -->
-<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frkfshakti&label=Profile%20Views&countColor=%236A0DAD&style=flat-square" alt="Profile Views" />
-
 <!-- Typing SVG -->
 <a href="https://github.com/rkfshakti">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6A0DAD&center=true&vCenter=true&width=700&lines=GenAI+%26+Agentic+AI+Architect;Open+Source+Contributor;Data-Driven+Builder;Intelligence+is+the+new+infrastructure" alt="Typing SVG" />
@@ -157,31 +154,6 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 <!-- Section: GitHub Stats -->
 <div align="center">
   <h2>GitHub Stats</h2>
-</div>
-
-<div align="center">
-
-<!-- Static stats badges — always render, no external service dependency -->
-![Open PRs](https://img.shields.io/badge/Open_PRs-30-6A0DAD?style=flat-square)
-![Merged PRs](https://img.shields.io/badge/Merged_PRs-2-success?style=flat-square)
-![Public Repos](https://img.shields.io/badge/Repos-39-181717?style=flat-square&logo=github)
-![Total Stars](https://img.shields.io/badge/Stars-8-FF6B35?style=flat-square)
-![Followers](https://img.shields.io/badge/Followers-2-0A66C2?style=flat-square)
-
-</div>
-
-<div align="center">
-
-<!-- GitHub Stats card — may intermittently fail due to Vercel rate limits -->
-<img src="https://github-readme-stats.vercel.app/api?username=rkfshakti&show_icons=true&hide_border=true&theme=transparent&title_color=6A0DAD&icon_color=FF6B35&text_color=666666&bg_color=00000000" alt="GitHub Stats" height="170" onerror="this.style.display='none'" />
-
-</div>
-
-<div align="center">
-
-<!-- Top languages card -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkfshakti&layout=compact&hide_border=true&theme=transparent&title_color=6A0DAD&text_color=666666&bg_color=00000000" alt="Top Languages" height="170" onerror="this.style.display='none'" />
-
 </div>
 
 <div align="center">
