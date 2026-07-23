@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Visitor Badge -->
-<img src="https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&color=6A0DAD&style=flat-square" alt="Profile Views" />
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frkfshakti&label=Profile%20Views&countColor=%236A0DAD&style=flat-square" alt="Profile Views" />
 
 <!-- Typing SVG -->
 <a href="https://github.com/rkfshakti">
