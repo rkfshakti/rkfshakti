@@ -78,37 +78,37 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 ### ✅ Merged
 
-**Dify — Email validator rejects trailing newlines** — `re.search` matched valid emails even with trailing newlines, causing silent validation bypass. Fix: `re.fullmatch`. → **Merged** ✅ [#39320](https://github.com/langgenius/dify/pull/39320)
+**langgenius/dify — Email validator rejects trailing newlines** — `re.search` matched valid emails even with trailing newlines, causing silent validation bypass. Fix: `re.fullmatch`. → **Merged** ✅ [#39320](https://github.com/langgenius/dify/pull/39320)
 
-**Dify — Audio-to-text returns 400 instead of 500** — Missing file field caused an unhandled server error. Fix: return proper 400 with clear message. → **Merged** ✅ [#39322](https://github.com/langgenius/dify/pull/39322)
+**langgenius/dify — Audio-to-text returns 400 instead of 500** — Missing file field caused an unhandled server error. Fix: return proper 400 with clear message. → **Merged** ✅ [#39322](https://github.com/langgenius/dify/pull/39322)
 
 ### 🟡 Active
 
-**Smolagents — `10 ** 10**8` freezes entire process** — CPython computes arbitrary-precision integers in C while holding the GIL. The thread-based `timeout()` decorator never fires because the worker never reaches a bytecode boundary. After timeout, the leaked thread still holds the GIL, blocking all subsequent executor submissions. Fix: pre-check bit-length before allowing exponentiation. → [#2564](https://github.com/huggingface/smolagents/pull/2564)
+**huggingface/smolagents — `10 ** 10**8` freezes entire process** — CPython computes arbitrary-precision integers in C while holding the GIL. The thread-based `timeout()` decorator never fires because the worker never reaches a bytecode boundary. After timeout, the leaked thread still holds the GIL, blocking all subsequent executor submissions. Fix: pre-check bit-length before allowing exponentiation. → [#2564](https://github.com/huggingface/smolagents/pull/2564)
 
-**CrewAI — `asyncio.run()` crash in async native tools** — When the async native tool path calls `tool.run()` → `asyncio.run()`, it crashes with `RuntimeError: asyncio.run() cannot be called from a running event loop`. Fix: add async variants that use `asyncio.gather` and `await tool.arun()`. → [#6622](https://github.com/crewAIInc/crewAI/pull/6622)
+**crewAIInc/crewAI — `asyncio.run()` crash in async native tools** — When the async native tool path calls `tool.run()` → `asyncio.run()`, it crashes with `RuntimeError: asyncio.run() cannot be called from a running event loop`. Fix: add async variants that use `asyncio.gather` and `await tool.arun()`. → [#6622](https://github.com/crewAIInc/crewAI/pull/6622)
 
-**Pydantic AI — Metadata loss across AG-UI round-trip** — Seven categories of part-level fields (`id`, `provider_name`, `provider_details`) were silently dropped when messages were round-tripped through `dump_messages()`/`load_messages()`. Fix: extend existing carrier mechanisms to preserve metadata. → [#6682](https://github.com/pydantic/pydantic-ai/pull/6682)
+**pydantic/pydantic-ai — Metadata loss across AG-UI round-trip** — Seven categories of part-level fields (`id`, `provider_name`, `provider_details`) were silently dropped when messages were round-tripped through `dump_messages()`/`load_messages()`. Fix: extend existing carrier mechanisms to preserve metadata. → [#6682](https://github.com/pydantic/pydantic-ai/pull/6682)
 
-**OpenAI Python — Streamed output lost on null response.completed** — The streaming accumulator never updated the snapshot on done events, so a null `output` field caused silent data loss. Fix: handle all four done event types in `accumulate_event()`. → [#3517](https://github.com/openai/openai-python/pull/3517)
+**openai/openai-python — Streamed output lost on null response.completed** — The streaming accumulator never updated the snapshot on done events, so a null `output` field caused silent data loss. Fix: handle all four done event types in `accumulate_event()`. → [#3517](https://github.com/openai/openai-python/pull/3517)
 
-**Chroma — NUL bytes corrupt FTS5 index** — Embedded null bytes in documents bypassed validation and corrupted the SQLite FTS5 index. Fix: reject NUL bytes before storage. → [#7474](https://github.com/chroma-core/chroma/pull/7474)
+**chroma-core/chroma — NUL bytes corrupt FTS5 index** — Embedded null bytes in documents bypassed validation and corrupted the SQLite FTS5 index. Fix: reject NUL bytes before storage. → [#7474](https://github.com/chroma-core/chroma/pull/7474)
 
-**Hermes Agent — write_file creates doubled paths** — A cwd-shaped relative path like `home/user/dev/notes/x.md` produced `/home/user/dev/home/user/dev/notes/x.md`. Fix: structural detection in path resolver. → [#67426](https://github.com/NousResearch/hermes-agent/pull/67426)
+**NousResearch/hermes-agent — write_file creates doubled paths** — A cwd-shaped relative path like `home/user/dev/notes/x.md` produced `/home/user/dev/home/user/dev/notes/x.md`. Fix: structural detection in path resolver. → [#67426](https://github.com/NousResearch/hermes-agent/pull/67426)
 
-**Firecrawl — Charset detection in fire-engine** — Responses without UTF-8 charset produced garbled text. Fix: detect charset from Content-Type and HTML meta tags. → [#4088](https://github.com/firecrawl/firecrawl/pull/4088)
+**firecrawl/firecrawl — Charset detection in fire-engine** — Responses without UTF-8 charset produced garbled text. Fix: detect charset from Content-Type and HTML meta tags. → [#4088](https://github.com/firecrawl/firecrawl/pull/4088)
 
-**Cognee — ACL read-grant users blocked from downloading raw data** — The endpoint called `get_data(user.id, data_id)` which checks `data.owner_id == user_id`, blocking users with dataset-level read grants. Fix: use the already-verified membership result instead. → [#4200](https://github.com/topoteretes/cognee/pull/4200)
+**topoteretes/cognee — ACL read-grant users blocked from downloading raw data** — The endpoint called `get_data(user.id, data_id)` which checks `data.owner_id == user_id`, blocking users with dataset-level read grants. Fix: use the already-verified membership result instead. → [#4200](https://github.com/topoteretes/cognee/pull/4200)
 
-**Qwen Code — npm path resolution fails with mise/asdf** — Node version managers replace `bin/npm` with a bash shim. `fs.realpathSync` succeeds but spawning `node /path/to/bash-wrapper` fails with Syntax Error. Fix: validate resolved path ends with `.js`. → [#7591](https://github.com/QwenLM/qwen-code/pull/7591)
+**QwenLM/qwen-code — npm path resolution fails with mise/asdf** — Node version managers replace `bin/npm` with a bash shim. `fs.realpathSync` succeeds but spawning `node /path/to/bash-wrapper` fails with Syntax Error. Fix: validate resolved path ends with `.js`. → [#7591](https://github.com/QwenLM/qwen-code/pull/7591)
 
 ### 🔴 Closed — But the Work Was Real
 
-**LangChain — PydanticOutputParser type coercion** — List-to-str and str-to-list field types in PydanticOutputParser failed silently. Fix: coerce types at parse boundary. → *Auto-closed (no issue assignment)* [#38996](https://github.com/langchain-ai/langchain/pull/38996)
+**langchain-ai/langchain — PydanticOutputParser type coercion** — List-to-str and str-to-list field types in PydanticOutputParser failed silently. Fix: coerce types at parse boundary. → *Auto-closed (no issue assignment)* [#38996](https://github.com/langchain-ai/langchain/pull/38996)
 
-**OpenAI Agents Python — Incomplete tool call stream guard** — Non-buffered Chat Completions stream could emit incomplete tool calls that crashed the parser. Fix: guard against partial tool call payloads. → *Closed (maintainer wanted real-provider repro)* [#3912](https://github.com/openai/openai-agents-python/pull/3912)
+**openai/openai-agents-python — Incomplete tool call stream guard** — Non-buffered Chat Completions stream could emit incomplete tool calls that crashed the parser. Fix: guard against partial tool call payloads. → *Closed (maintainer wanted real-provider repro)* [#3912](https://github.com/openai/openai-agents-python/pull/3912)
 
-**Pi Agent — wl-copy exit code ignored** — The `/copy` command always set `copied=true` after spawning wl-copy without awaiting its exit code. When wl-copy failed, the xclip/OSC 52 fallbacks never ran. Fix: await exit code, fall through on failure. → *Closed (not merged)* [#7009](https://github.com/earendil-works/pi/pull/7009)
+**earendil-works/pi — wl-copy exit code ignored** — The `/copy` command always set `copied=true` after spawning wl-copy without awaiting its exit code. When wl-copy failed, the xclip/OSC 52 fallbacks never ran. Fix: await exit code, fall through on failure. → *Closed (not merged)* [#7009](https://github.com/earendil-works/pi/pull/7009)
 
 ---
 
