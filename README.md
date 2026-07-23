@@ -99,16 +99,16 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 | [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | 4 PRs — null output guard, NO_PROXY sanitization, stream drain, list merge by logical index |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 3 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | 3 PRs — charset detection, ignoreRobotsTxt forwarding, community link fix |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | — | 2 PRs — ImportError pattern, embedding dim propagation |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | — | 2 PRs — ACL raw-download for read-grant users, Postgres import guard |
-| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | — | 1 PR — npm path resolution with mise/asdf Node version managers |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | — | 2 PRs — managed-agent summary leak, big-integer timeout bypass |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | — | 1 PR — async tools in native tool loop |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | — | 1 PR — AG-UI round-trip metadata loss |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 61.5K+ | 2 PRs — ImportError pattern, embedding dim propagation |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 2 PRs — ACL raw-download for read-grant users, Postgres import guard |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 26.2K+ | 1 PR — npm path resolution with mise/asdf Node version managers |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | 28.5K+ | 2 PRs — managed-agent summary leak, big-integer timeout bypass |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 56.0K+ | 1 PR — async tools in native tool loop |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 18.7K+ | 1 PR — AG-UI round-trip metadata loss |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 2 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing (auto-closed, no assignment) |
-| [agno-agi/agno](https://github.com/agno-agi/agno) | — | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
-| [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | — | 1 PR — incomplete tool call stream guard (closed, maintainer wanted repro) |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | — | 1 PR — wl-copy exit code + xclip fallback (closed) |
+| [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
+| [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 28.1K+ | 1 PR — incomplete tool call stream guard (closed, maintainer wanted repro) |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | 76.1K+ | 1 PR — wl-copy exit code + xclip fallback (closed) |
 
 ---
 
