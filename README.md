@@ -14,7 +14,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
 
-**10+ years in IT** &nbsp;|&nbsp; **MBA, Operations & Supply Chain, Liverpool Business School, UK** &nbsp;|&nbsp; **India**
+**10+ years in IT** &nbsp;|&nbsp; **MBA, Liverpool Business School, United Kingdom** &nbsp;|&nbsp; **India**
 
 </div>
 
