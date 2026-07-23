@@ -22,7 +22,7 @@
 
 <!-- Section: Who I Am -->
 <div align="center">
-  <h2>👤 Who I Am</h2>
+  <h2>Who I Am</h2>
 </div>
 
 I am an architect who lives and breathes data.
@@ -39,52 +39,26 @@ What drives me: the 10-day process that becomes 2 hours. The 3% error rate that 
 
 <!-- Section: What I Build -->
 <div align="center">
-  <h2>🛠️ What I Build</h2>
+  <h2>What I Build</h2>
 </div>
 
-I operate where enterprise complexity meets agentic AI.
+I build the systems that make AI useful in production — not demos, not prototypes. The work that turns a model into a reliable, observable, autonomous system that enterprises can actually depend on.
+
+**Agent Harness Engineering** — Designing the scaffolding around frontier models: context resets, structured handoffs, generator-evaluator loops, and sprint contracts that keep long-running agents coherent across multi-hour sessions. Inspired by Anthropic's harness design research and the GAN-inspired generator-evaluator pattern.
+
+**Loop Engineering** — Building self-correcting agent loops where an evaluator agent grades outputs against concrete criteria, feeds critique back to the generator, and iterates until quality thresholds are met. Turning subjective judgments ("is this good?") into gradable, testable contracts.
+
+**Context Engineering** — Managing what enters the context window, when, and in what form. Compaction, retrieval-augmented context, and structured artifacts (progress files, feature lists) that let agents pick up where the last session left off without guessing.
+
+**Multi-Agent Orchestration** — Planner → generator → evaluator architectures, A2A and MCP protocols, and frameworks like LangGraph, CrewAI, and the OpenAI Agents SDK. Orchestrating specialized agents that each own a slice of the SDLC.
+
+**LLM Platform & Vector Infrastructure** — AWS Bedrock, Azure OpenAI, Vertex AI for model serving; Pinecone, FAISS, ChromaDB, and Azure AI Search for retrieval. Building the retrieval and serving layer that production agents depend on.
 
 <div align="center">
 
-**Multi-Agent Orchestration**
-
-![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-6A0DAD?style=flat-square)
-![A2A](https://img.shields.io/badge/A2A-FF6B35?style=flat-square)
-
-**LLM Platform Architecture**
-
-![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Google Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-
-**Vector Search Infrastructure**
-
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-00599C?style=flat-square)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)
-![Azure AI Search](https://img.shields.io/badge/Azure_AI_Search-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-
-**Agent Frameworks**
-
-![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-6A0DAD?style=flat-square)
-![Pi Agent](https://img.shields.io/badge/Pi_Agent-FF6B35?style=flat-square)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF6B35?style=flat-square)
-![AutoGen](https://img.shields.io/badge/AutoGen-00599C?style=flat-square)
-![Semantic Kernel](https://img.shields.io/badge/Semantic_Kernel-7121C6?style=flat-square)
-
-**API & Infrastructure**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![CrewAI](https://img.shields.io/badge/CrewAI-FF6B35?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-6A0DAD?style=flat-square) ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 </div>
-
-<br>
 
 **Open to freelance, collaboration, and technical co-founder conversations.**
 
@@ -92,7 +66,7 @@ I operate where enterprise complexity meets agentic AI.
 
 <!-- Section: Open Source Contributions -->
 <div align="center">
-  <h2>🌟 Open Source Contributions</h2>
+  <h2>Open Source Contributions</h2>
 </div>
 
 I fix real bugs in production-grade AI infrastructure — the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix — not a typo, not a docs tweak.
@@ -119,7 +93,7 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 <!-- Section: Recent Impact -->
 <div align="center">
-  <h2>📈 Recent Impact</h2>
+  <h2>Recent Impact</h2>
 </div>
 
 ### ✅ Merged
@@ -160,13 +134,12 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 <!-- Section: GitHub Stats -->
 <div align="center">
-  <h2>📊 GitHub Stats</h2>
+  <h2>GitHub Stats</h2>
 </div>
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=rkfshakti&show_icons=true&hide_border=true&theme=transparent&title_color=6A0DAD&icon_color=FF6B35&text_color=666666&bg_color=00000000" alt="GitHub Stats" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rkfshakti&layout=compact&hide_border=true&theme=transparent&title_color=6A0DAD&text_color=666666&bg_color=00000000" alt="Top Languages" height="170" />
 
 </div>
 
@@ -182,17 +155,11 @@ I fix real bugs in production-grade AI infrastructure — the kind that silently
 
 </div>
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=rkfshakti&theme=transparent&no-frame=true&column=7&margin-w=15&margin-h=15&no-bg=true" alt="GitHub Trophies" />
-
-</div>
-
 ---
 
 <!-- Section: Let's Connect -->
 <div align="center">
-  <h2>🤝 Let's Connect</h2>
+  <h2>Let's Connect</h2>
 </div>
 
 I'm open to architecture challenges, enterprise AI strategy, freelance engagements, or startup ideas in the GenAI space.
