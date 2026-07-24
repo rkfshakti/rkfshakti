@@ -26,9 +26,9 @@ Intelligence is the new infrastructure. I'm the architect.
 
 Not the kind who draws boxes on whiteboards. The kind who sits with the numbers, finds what they are actually saying, and builds systems that make organisations act on it. Autonomously. At scale. Reliably.
 
-Over 10 years in IT, from business analyst to GenAI architect — always following the data. I've led cross-functional teams across the US and Middle East, engaged C-suite stakeholders on AI strategy, and driven real transformation in financial services (BFSI), consumer goods (CPG), energy (EPG), and healthcare (HLM).
+Over 10 years in IT, from business analyst to GenAI architect always following the data. I've led cross-functional teams across the US and Middle East, engaged C-suite stakeholders on AI strategy, and driven real transformation in financial services (BFSI), consumer goods (CPG), energy (EPG), and healthcare (HLM).
 
-MBA from Liverpool Business School, UK — not to step away from technology, but to understand the business problems well enough to solve them with it.
+MBA from Liverpool Business School, UK not to step away from technology, but to understand the business problems well enough to solve them with it.
 
 What drives me: the 10-day process that becomes 2 hours. The 3% error rate that drops to under 0.5%. The alert noise cut by 30%. The best AI systems are the ones nobody notices, because they just work.
 
@@ -41,15 +41,15 @@ What drives me: the 10-day process that becomes 2 hours. The 3% error rate that 
 
 I build the systems that make AI useful in production — not demos, not prototypes. The work that turns a model into a reliable, observable, autonomous system that enterprises can actually depend on.
 
-**Agent Harness Engineering** — Designing the scaffolding around frontier models: context resets, structured handoffs, generator-evaluator loops, and sprint contracts that keep long-running agents coherent across multi-hour sessions. Inspired by Anthropic's harness design research and the GAN-inspired generator-evaluator pattern.
+**Agent Harness Engineering** Designing the scaffolding around frontier models: context resets, structured handoffs, generator-evaluator loops, and sprint contracts that keep long-running agents coherent across multi-hour sessions. Inspired by Anthropic's harness design research and the GAN-inspired generator-evaluator pattern.
 
-**Loop Engineering** — Building self-correcting agent loops where an evaluator agent grades outputs against concrete criteria, feeds critique back to the generator, and iterates until quality thresholds are met. Turning subjective judgments ("is this good?") into gradable, testable contracts.
+**Loop Engineering** Building self-correcting agent loops where an evaluator agent grades outputs against concrete criteria, feeds critique back to the generator, and iterates until quality thresholds are met. Turning subjective judgments ("is this good?") into gradable, testable contracts.
 
-**Context Engineering** — Managing what enters the context window, when, and in what form. Compaction, retrieval-augmented context, and structured artifacts (progress files, feature lists) that let agents pick up where the last session left off without guessing.
+**Context Engineering** Managing what enters the context window, when, and in what form. Compaction, retrieval-augmented context, and structured artifacts (progress files, feature lists) that let agents pick up where the last session left off without guessing.
 
-**Multi-Agent Orchestration** — Planner → generator → evaluator architectures, A2A and MCP protocols, and frameworks like LangGraph, CrewAI, and the OpenAI Agents SDK. Orchestrating specialized agents that each own a slice of the SDLC.
+**Multi-Agent Orchestration** Planner → generator → evaluator architectures, A2A and MCP protocols, and frameworks like LangGraph, CrewAI, and the OpenAI Agents SDK. Orchestrating specialized agents that each own a slice of the SDLC.
 
-**LLM Platform & Vector Infrastructure** — AWS Bedrock, Azure OpenAI, Vertex AI for model serving; Pinecone, FAISS, ChromaDB, and Azure AI Search for retrieval. Building the retrieval and serving layer that production agents depend on.
+**LLM Platform & Vector Infrastructure** AWS Bedrock, Azure OpenAI & Foundry, Vertex AI for model serving; Pinecone, FAISS, ChromaDB, and Azure AI Search for retrieval. Building the retrieval and serving layer that production agents depend on.
 
 <div align="center">
 
@@ -68,15 +68,15 @@ I build the systems that make AI useful in production — not demos, not prototy
 
 An architect who ships without a governance layer is shipping liability. I build AI systems that are not just capable but accountable — designed to pass audit, survive regulatory scrutiny, and earn the trust of the business and its customers.
 
-**Regulatory Alignment** — I design against the frameworks that matter in 2026: the **EU AI Act** (risk-tiered obligations, high-risk system conformity assessments, GPAI transparency duties, now in force), the **NIST AI Risk Management Framework** (Govern–Map–Measure–Manage lifecycle), and **ISO/IEC 42001** (the first certifiable AI management system standard). For any system touching EU users or regulated sectors, compliance is designed in from day one — not bolted on after launch.
+**Regulatory Alignment** I design against the frameworks that matter in 2026: the **EU AI Act** (risk-tiered obligations, high-risk system conformity assessments, GPAI transparency duties, now in force), the **NIST AI Risk Management Framework** (Govern–Map–Measure–Manage lifecycle), and **ISO/IEC 42001** (the first certifiable AI management system standard). For any system touching EU users or regulated sectors, compliance is designed in from day one — not bolted on after launch.
 
-**Responsible AI by Design** — Bias detection and mitigation in training data and model outputs. Human-in-the-loop checkpoints for high-stakes decisions. Explainability and audit trails so every automated decision can be traced, justified, and challenged. Model cards and system documentation as living artifacts, not afterthoughts.
+**Responsible AI by Design** Bias detection and mitigation in training data and model outputs. Human-in-the-loop checkpoints for high-stakes decisions. Explainability and audit trails so every automated decision can be traced, justified, and challenged. Model cards and system documentation as living artifacts, not afterthoughts.
 
-**Agent Containment & Safety** — As agents grow more autonomous, blast radius grows with them. I design containment boundaries, permission scoping, and tool-use guardrails so an agent that goes off-script cannot take production systems with it. Inspired by Anthropic's containment research for Claude Code and Cowork.
+**Agent Containment & Safety** As agents grow more autonomous, blast radius grows with them. I design containment boundaries, permission scoping, and tool-use guardrails so an agent that goes off-script cannot take production systems with it. Inspired by Anthropic's containment research for Claude Code and Cowork.
 
-**Data Governance** — PII handling, retention policies, and data lineage that satisfy GDPR and sector-specific privacy regimes. Retrieval pipelines that respect access controls — no leaking privileged context across tenants or user boundaries.
+**Data Governance** PII handling, retention policies, and data lineage that satisfy GDPR and sector-specific privacy regimes. Retrieval pipelines that respect access controls — no leaking privileged context across tenants or user boundaries.
 
-**Transparency & Disclosure** — AI-generated content labelling, chatbot disclosure, and deepfake detection readiness — aligned with the EU AI Act's transparency obligations taking effect August 2026.
+**Transparency & Disclosure** AI-generated content labelling, chatbot disclosure, and deepfake detection readiness — aligned with the EU AI Act's transparency obligations taking effect August 2026.
 
 Governance is not a brake on innovation. It is the foundation that lets an enterprise deploy AI with confidence.
 
@@ -87,7 +87,7 @@ Governance is not a brake on innovation. It is the foundation that lets an enter
   <h2>Open Source Contributions</h2>
 </div>
 
-I fix real bugs in production-grade AI infrastructure — the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix — not a typo, not a docs tweak.
+I fix real bugs in production-grade AI infrastructure the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix not a typo, not a docs tweak.
 
 | Repo | Stars | Impact |
 |------|-------|--------|
