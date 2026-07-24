@@ -105,7 +105,7 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 2 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing (auto-closed, no assignment) |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 28.1K+ | 1 PR — incomplete tool call stream guard (closed, maintainer wanted repro) |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | 76.1K+ | 1 PR — wl-copy exit code + xclip fallback (closed) |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | 76.1K+ | 1 PR merged — wl-copy exit code + xclip fallback ✅ |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 10.4K+ | 1 PR — bound duplicate-metric recovery cost by batch size, not run history |
 
 ---
@@ -120,6 +120,8 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 **[langgenius/dify](https://github.com/langgenius/dify) — Email validator rejects trailing newlines** — `re.search` matched valid emails even with trailing newlines, causing silent validation bypass. Fix: `re.fullmatch`. → **Merged** ✅ [#39320](https://github.com/langgenius/dify/pull/39320)
 
 **[langgenius/dify](https://github.com/langgenius/dify) — Audio-to-text returns 400 instead of 500** — Missing file field caused an unhandled server error. Fix: return proper 400 with clear message. → **Merged** ✅ [#39322](https://github.com/langgenius/dify/pull/39322)
+
+**[earendil-works/pi](https://github.com/earendil-works/pi) — wl-copy exit code ignored** — The `/copy` command always set `copied=true` after spawning wl-copy without awaiting its exit code. When wl-copy failed, the xclip/OSC 52 fallbacks never ran. Fix: await exit code, fall through on failure. → **Merged** ✅ [#7009](https://github.com/earendil-works/pi/pull/7009)
 
 ### 🟡 Active
 
@@ -146,8 +148,6 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 **[langchain-ai/langchain](https://github.com/langchain-ai/langchain) — PydanticOutputParser type coercion** — List-to-str and str-to-list field types in PydanticOutputParser failed silently. Fix: coerce types at parse boundary. → *Auto-closed (no issue assignment)* [#38996](https://github.com/langchain-ai/langchain/pull/38996)
 
 **[openai/openai-agents-python](https://github.com/openai/openai-agents-python) — Incomplete tool call stream guard** — Non-buffered Chat Completions stream could emit incomplete tool calls that crashed the parser. Fix: guard against partial tool call payloads. → *Closed (maintainer wanted real-provider repro)* [#3912](https://github.com/openai/openai-agents-python/pull/3912)
-
-**[earendil-works/pi](https://github.com/earendil-works/pi) — wl-copy exit code ignored** — The `/copy` command always set `copied=true` after spawning wl-copy without awaiting its exit code. When wl-copy failed, the xclip/OSC 52 fallbacks never ran. Fix: await exit code, fall through on failure. → *Closed (not merged)* [#7009](https://github.com/earendil-works/pi/pull/7009)
 
 ---
 
