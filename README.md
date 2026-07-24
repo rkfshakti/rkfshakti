@@ -28,7 +28,7 @@ Not the kind who draws boxes on whiteboards. The kind who sits with the numbers,
 
 Over 10 years in IT, from business analyst to GenAI architect — always following the data. I've led cross-functional teams across the US and Middle East, engaged C-suite stakeholders on AI strategy, and driven real transformation in financial services (BFSI), consumer goods (CPG), energy (EPG), and healthcare (HLM).
 
-MBA in Operations & Supply Chain at Liverpool Business School, UK — not to step away from technology, but to understand the business problems well enough to solve them with it.
+MBA from Liverpool Business School, UK — not to step away from technology, but to understand the business problems well enough to solve them with it.
 
 What drives me: the 10-day process that becomes 2 hours. The 3% error rate that drops to under 0.5%. The alert noise cut by 30%. The best AI systems are the ones nobody notices, because they just work.
 
