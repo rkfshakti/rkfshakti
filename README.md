@@ -143,6 +143,8 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 
 **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — write_file creates doubled paths** — A cwd-shaped relative path like `home/user/dev/notes/x.md` produced `/home/user/dev/home/user/dev/notes/x.md`. Fix: structural detection in path resolver. → [#67426](https://github.com/NousResearch/hermes-agent/pull/67426)
 
+**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — Model override lost on session rehydration** — When a session with a model override was rehydrated, the target model name was not forwarded to provider resolution, causing aggregator providers to resolve the wrong `api_mode`. Fix: pass `target_model` through the rehydration path. Another contributor independently opened a duplicate PR (#71612, closed) and contributed a regression test. → [#70184](https://github.com/NousResearch/hermes-agent/pull/70184)
+
 **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — Charset detection in fire-engine** — Responses without UTF-8 charset produced garbled text. Fix: detect charset from Content-Type and HTML meta tags. → [#4088](https://github.com/firecrawl/firecrawl/pull/4088)
 
 **[topoteretes/cognee](https://github.com/topoteretes/cognee) — ACL read-grant users blocked from downloading raw data** — The endpoint called `get_data(user.id, data_id)` which checks `data.owner_id == user_id`, blocking users with dataset-level read grants. Fix: use the already-verified membership result instead. → [#4200](https://github.com/topoteretes/cognee/pull/4200)
