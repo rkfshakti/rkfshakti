@@ -117,6 +117,8 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 
 ### ✅ Merged
 
+**[thomas-villani/all2md](https://github.com/thomas-villani/all2md) — Parallel test races in TestSplitCLIE2E** — Tests sharing a temp directory clobbered each other's files. Fix: use `tmp_path_factory` for unique per-test directories. → **Merged** ✅ [#187](https://github.com/thomas-villani/all2md/pull/187)
+
 **[langgenius/dify](https://github.com/langgenius/dify) — Email validator rejects trailing newlines** — `re.search` matched valid emails even with trailing newlines, causing silent validation bypass. Fix: `re.fullmatch`. → **Merged** ✅ [#39320](https://github.com/langgenius/dify/pull/39320)
 
 **[langgenius/dify](https://github.com/langgenius/dify) — Audio-to-text returns 400 instead of 500** — Missing file field caused an unhandled server error. Fix: return proper 400 with clear message. → **Merged** ✅ [#39322](https://github.com/langgenius/dify/pull/39322)
@@ -124,6 +126,10 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 **[earendil-works/pi](https://github.com/earendil-works/pi) — wl-copy exit code ignored** — The `/copy` command always set `copied=true` after spawning wl-copy without awaiting its exit code. When wl-copy failed, the xclip/OSC 52 fallbacks never ran. Fix: await exit code, fall through on failure. → **Merged** ✅ [#7009](https://github.com/earendil-works/pi/pull/7009)
 
 ### 🟡 Active
+
+**[langgenius/dify](https://github.com/langgenius/dify) — PG logical replication breaks on generated columns** — PostgreSQL with `wal_level=logical` rejects `STORED GENERATED` columns in replica identity. Fix: replace generated column + unique constraint with a partial unique index. → **Approved** ✅ [#39473](https://github.com/langgenius/dify/pull/39473)
+
+**[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) — Message IDs and additional_kwargs lost in OpenAI format round-trip** — `convert_to_openai_messages()` stripped IDs and non-standard fields. Fix: pass `include_id=True`, save kwargs by message ID before conversion, restore lost fields after. → **Reviewed** 💬 [#7273](https://github.com/langchain-ai/langgraph/pull/7273)
 
 **[huggingface/smolagents](https://github.com/huggingface/smolagents) — `10 ** 10**8` freezes entire process** — CPython computes arbitrary-precision integers in C while holding the GIL. The thread-based `timeout()` decorator never fires because the worker never reaches a bytecode boundary. After timeout, the leaked thread still holds the GIL, blocking all subsequent executor submissions. Fix: pre-check bit-length before allowing exponentiation. → [#2564](https://github.com/huggingface/smolagents/pull/2564)
 
