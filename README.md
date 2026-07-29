@@ -91,11 +91,12 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 
 | Repo | Stars | Impact |
 |------|-------|--------|
-| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **2 PRs merged** — email validator fix, audio-to-text 400 error. Open: MCP timeout fix, Agent node completion params, PG logical replication, system message ordering, agent files dropped |
+| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **3 PRs merged** — email validator fix, audio-to-text 400 error, Agent node completion params. Open: MCP timeout fix, PG logical replication, system message ordering, agent files dropped |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) | 28.8K | 9 PRs — path normalization, fixture registration, NUL byte FTS5 corruption, include-list mutation, dependency cleanup, naming bugs |
 | [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | 4 PRs — null output guard, NO_PROXY sanitization, stream drain, list merge by logical index |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 4 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard, model override rehydration |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 7 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard, model override rehydration, KANBAN guidance gating, gateway env var expansion, recon loop continuation guard |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | 4 PRs — charset detection, ignoreRobotsTxt forwarding, community link fix, batch pagination |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | — | 4 PRs — Qwen auth error guidance, MCP streamable-http compat, plan directory chat reply, run shell session allowlist |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 61.5K+ | 2 PRs — ImportError pattern, embedding dim propagation |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 2 PRs — ACL raw-download for read-grant users, Postgres import guard |
 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 26.2K+ | 1 PR — npm path resolution with mise/asdf Node version managers |
@@ -103,10 +104,16 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 56.0K+ | 1 PR — async tools in native tool loop |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 18.7K+ | 1 PR — AG-UI round-trip metadata loss |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 2 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing (auto-closed, no assignment) |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | — | 1 PR — Message IDs and additional_kwargs lost in OpenAI format round-trip |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 28.1K+ | 1 PR — incomplete tool call stream guard (closed, maintainer wanted repro) |
 | [earendil-works/pi](https://github.com/earendil-works/pi) | 76.1K+ | 1 PR merged — wl-copy exit code + xclip fallback ✅ |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 10.4K+ | 1 PR — bound duplicate-metric recovery cost by batch size, not run history |
+| [Q00/ouroboros](https://github.com/Q00/ouroboros) | — | 1 PR merged — don't require LiteLLM for `ouroboros interview list` ✅ |
+| [thomas-villani/all2md](https://github.com/thomas-villani/all2md) | — | 1 PR merged — parallel test races in TestSplitCLIE2E ✅ |
+| [AlphaSlayer1964/kemono-dl](https://github.com/AlphaSlayer1964/kemono-dl) | — | 1 PR — pawchive image URL fix |
+| [Apex-Engineers-Inc/rustest](https://github.com/Apex-Engineers-Inc/rustest) | — | 1 PR — xfail bare decorator fix |
+| [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | — | 1 PR — BCP 47 language matching |
 
 ---
 
@@ -124,6 +131,12 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 **[langgenius/dify](https://github.com/langgenius/dify) — Audio-to-text returns 400 instead of 500** — Missing file field caused an unhandled server error. Fix: return proper 400 with clear message. → **Merged** ✅ [#39322](https://github.com/langgenius/dify/pull/39322)
 
 **[earendil-works/pi](https://github.com/earendil-works/pi) — wl-copy exit code ignored** — The `/copy` command always set `copied=true` after spawning wl-copy without awaiting its exit code. When wl-copy failed, the xclip/OSC 52 fallbacks never ran. Fix: await exit code, fall through on failure. → **Merged** ✅ [#7009](https://github.com/earendil-works/pi/pull/7009)
+
+**[langgenius/dify](https://github.com/langgenius/dify) — Agent node completion params not populated from model schema** — When creating an Agent node, `completion_params` was left empty instead of inheriting defaults from the model schema. Fix: populate `completion_params` from model schema defaults at node creation time. → **Merged** ✅ [#39590](https://github.com/langgenius/dify/pull/39590)
+
+**[Q00/ouroboros](https://github.com/Q00/ouroboros) — `ouroboros interview list` crashes without LiteLLM** — The CLI command unconditionally imported LiteLLM at module level, crashing when LiteLLM wasn't installed. Fix: defer the import to only when the interview subcommand actually runs. → **Merged** ✅ [#1748](https://github.com/Q00/ouroboros/pull/1748)
+
+**[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — Community link points to old URL** — The README's "join our community" link was outdated. Fix: update to point to the Discord invite. → **Merged** ✅ [#4067](https://github.com/firecrawl/firecrawl/pull/4067)
 
 ### 🟡 Active
 
@@ -150,6 +163,30 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 **[topoteretes/cognee](https://github.com/topoteretes/cognee) — ACL read-grant users blocked from downloading raw data** — The endpoint called `get_data(user.id, data_id)` which checks `data.owner_id == user_id`, blocking users with dataset-level read grants. Fix: use the already-verified membership result instead. → [#4200](https://github.com/topoteretes/cognee/pull/4200)
 
 **[QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — npm path resolution fails with mise/asdf** — Node version managers replace `bin/npm` with a bash shim. `fs.realpathSync` succeeds but spawning `node /path/to/bash-wrapper` fails with Syntax Error. Fix: validate resolved path ends with `.js`. → [#7591](https://github.com/QwenLM/qwen-code/pull/7591)
+
+**[andrewyng/openworker](https://github.com/andrewyng/openworker) — Qwen API key auth error guidance** — When Qwen API key authentication fails, the error message is cryptic. Fix: add friendly error guidance for Qwen API key authentication failures. → [#277](https://github.com/andrewyng/openworker/pull/277)
+
+**[andrewyng/openworker](https://github.com/andrewyng/openworker) — MCP streamable-http compatibility** — The MCP client doesn't support streamable-http transport. Fix: try streamable-http first and catch httpx timeouts in MCP client fallback. → [#299](https://github.com/andrewyng/openworker/pull/299)
+
+**[andrewyng/openworker](https://github.com/andrewyng/openworker) — Plan directory chat reply** — The plan directory command doesn't reply in chat. Fix: ensure plan directory operations reply in the chat thread. → [#300](https://github.com/andrewyng/openworker/pull/300)
+
+**[andrewyng/openworker](https://github.com/andrewyng/openworker) — Run shell session allowlist** — The run shell session command doesn't respect the allowlist. Fix: enforce session allowlist for run shell commands. → [#301](https://github.com/andrewyng/openworker/pull/301)
+
+**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — KANBAN guidance gating** — KANBAN_GUIDANCE runs even when HERMES_KANBAN_TASK is not set, wasting tokens. Fix: gate KANBAN_GUIDANCE on HERMES_KANBAN_TASK being present. → [#73263](https://github.com/NousResearch/hermes-agent/pull/73263)
+
+**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — Gateway env var expansion** — Environment variables in gateway config are not expanded. Fix: expand env vars in gateway configuration values. → [#72879](https://github.com/NousResearch/hermes-agent/pull/72879)
+
+**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — Recon loop continuation guard** — The recon loop continues even when the session is cancelled. Fix: add continuation guard to stop recon loop on session cancellation. → [#72851](https://github.com/NousResearch/hermes-agent/pull/72851)
+
+**[mem0ai/mem0](https://github.com/mem0ai/mem0) — ImportError on no input or exit** — The CLI crashes with ImportError when no input or exit is provided. Fix: guard the import with a try/except for graceful fallback. → [#6490](https://github.com/mem0ai/mem0/pull/6490)
+
+**[mem0ai/mem0](https://github.com/mem0ai/mem0) — Embedding dims not auto-propagated** — When embedding dimensions change, the system doesn't auto-propagate the new dims. Fix: auto-propagate embedding dimensions on config change. → [#6493](https://github.com/mem0ai/mem0/pull/6493)
+
+**[AlphaSlayer1964/kemono-dl](https://github.com/AlphaSlayer1964/kemono-dl) — Pawchive image URL parsing** — The pawchive image URL format changed, breaking downloads. Fix: update URL parsing to match the new format. → [#261](https://github.com/AlphaSlayer1964/kemono-dl/pull/261)
+
+**[Apex-Engineers-Inc/rustest](https://github.com/Apex-Engineers-Inc/rustest) — xfail bare decorator** — `@pytest.mark.xfail` without a reason argument causes issues. Fix: support bare xfail decorator without arguments. → [#138](https://github.com/Apex-Engineers-Inc/rustest/pull/138)
+
+**[seevee/cap_alerts](https://github.com/seevee/cap_alerts) — BCP 47 language matching** — Language matching doesn't follow BCP 47 standards. Fix: implement proper BCP 47 language tag matching. → [#60](https://github.com/seevee/cap_alerts/pull/60)
 
 ### 🔴 Closed
 
