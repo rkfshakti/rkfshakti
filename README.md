@@ -91,24 +91,25 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 
 | Repo | Stars | Impact |
 |------|-------|--------|
-| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **3 PRs merged** — email validator fix, audio-to-text 400 error, Agent node completion params. Open: MCP timeout fix, PG logical replication, system message ordering, agent files dropped |
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 28.8K | 9 PRs — path normalization, fixture registration, NUL byte FTS5 corruption, include-list mutation, dependency cleanup, naming bugs |
+| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **3 PRs merged** ✅ — email validator fix, audio-to-text 400 error, Agent node completion params. 4 open: MCP timeout, PG logical replication, system message ordering, agent files by model feature. 3 closed |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 19 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard, model override rehydration, KANBAN guidance gating, gateway env var expansion, recon loop continuation guard. 16 closed (high dup rate from hermes-sweeper bot) |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 28.8K | 9 PRs — path normalization, fixture registration, NUL byte FTS5 corruption, include-list mutation, dependency cleanup, naming bugs. 8 open, 1 closed |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | 6 PRs — charset detection, ignoreRobotsTxt forwarding, community link fix **merged** ✅, batch pagination default, crawl pagination default. 4 open, 1 merged, 1 closed |
 | [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | 4 PRs — null output guard, NO_PROXY sanitization, stream drain, list merge by logical index |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 7 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard, model override rehydration, KANBAN guidance gating, gateway env var expansion, recon loop continuation guard |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | 4 PRs — charset detection, ignoreRobotsTxt forwarding, community link fix, batch pagination |
+| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 4 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing, tracer copy, task cancel IndexError (all auto-closed, no assignment) |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | — | 4 PRs — Qwen auth error guidance, MCP streamable-http compat, plan directory chat reply, run shell session allowlist |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | 28.5K+ | 2 PRs — managed-agent summary leak (redact tool messages), big-integer timeout bypass (sequence + integer guards) |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 61.5K+ | 2 PRs — ImportError pattern, embedding dim propagation |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 2 PRs — ACL raw-download for read-grant users, Postgres import guard |
-| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 26.2K+ | 1 PR — npm path resolution with mise/asdf Node version managers |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | 28.5K+ | 2 PRs — managed-agent summary leak, big-integer timeout bypass |
+| [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
+| [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 26.2K+ | 1 PR — npm path resolution with mise/asdf Node version managers (closed, same fix merged separately) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 56.0K+ | 1 PR — async tools in native tool loop |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 18.7K+ | 1 PR — AG-UI round-trip metadata loss |
-| [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 2 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing (auto-closed, no assignment) |
 | [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | — | 1 PR — Message IDs and additional_kwargs lost in OpenAI format round-trip |
-| [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 28.1K+ | 1 PR — incomplete tool call stream guard (closed, maintainer wanted repro) |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | 76.1K+ | 1 PR merged — wl-copy exit code + xclip fallback ✅ |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 70K+ | 1 PR — clean up dead code, docstring, and add regression tests for Preview Text fix |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | 10.4K+ | 1 PR — bound duplicate-metric recovery cost by batch size, not run history |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | 76.1K+ | 1 PR merged — wl-copy exit code + xclip fallback ✅ |
 | [Q00/ouroboros](https://github.com/Q00/ouroboros) | — | 1 PR merged — don't require LiteLLM for `ouroboros interview list` ✅ |
 | [thomas-villani/all2md](https://github.com/thomas-villani/all2md) | — | 1 PR merged — parallel test races in TestSplitCLIE2E ✅ |
 | [AlphaSlayer1964/kemono-dl](https://github.com/AlphaSlayer1964/kemono-dl) | — | 1 PR — pawchive image URL fix |
