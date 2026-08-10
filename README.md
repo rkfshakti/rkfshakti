@@ -90,32 +90,35 @@ Governance is not a brake on innovation. It is the foundation that lets an enter
 
 I fix real bugs in production-grade AI infrastructure the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix not a typo, not a docs tweak.
 
+**93 PRs across 25 repos** — 8 merged, 38 open, 47 closed.
+
 | Repo | Stars | Impact |
 |------|-------|--------|
-| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **3 PRs merged** ✅ — email validator fix, audio-to-text 400 error, Agent node completion params. 4 open: MCP timeout, PG logical replication, system message ordering, agent files by model feature. 3 closed |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 19 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard, model override rehydration, KANBAN guidance gating, gateway env var expansion, recon loop continuation guard. 16 closed (high dup rate from hermes-sweeper bot) |
+| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **3 PRs merged** ✅ — email validator fix, audio-to-text 400 error, Agent node completion params. 5 open: MCP timeout, PG logical replication (**approved**), system message ordering, agent files by model feature, AGENT_BACKEND_BASE_URL error msg. 3 closed |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 21 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard, model override rehydration, KANBAN guidance gating, gateway env var expansion, recon loop continuation guard, progress narration detection. 5 open, 16 closed (high dup rate from hermes-sweeper bot) |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) | 28.8K | 9 PRs — path normalization, fixture registration, NUL byte FTS5 corruption, include-list mutation, dependency cleanup, naming bugs. 8 open, 1 closed |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | 6 PRs — charset detection, ignoreRobotsTxt forwarding, community link fix **merged** ✅, batch pagination default, crawl pagination default. 4 open, 1 merged, 1 closed |
-| [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | 4 PRs — null output guard, NO_PROXY sanitization, stream drain, list merge by logical index |
+| [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | 4 PRs — null output guard (**reviewed by jbeckwith-oai**), NO_PROXY sanitization (**reviewed**), stream drain, list merge by logical index (**reviewed**). All 4 open |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | — | 6 PRs — Qwen auth error guidance, MCP streamable-http compat, plan directory chat reply, run shell session allowlist, coverage measurement, tool-call pairing repair. All 6 open |
+| [huggingface/smolagents](https://github.com/huggingface/smolagents) | 28.5K+ | 3 PRs — managed-agent summary leak (**reviewed**), big-integer timeout bypass (**reviewed**), default model replacement. All 3 open |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 4 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing, tracer copy, task cancel IndexError (all auto-closed, no assignment) |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | — | 4 PRs — Qwen auth error guidance, MCP streamable-http compat, plan directory chat reply, run shell session allowlist |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | 28.5K+ | 2 PRs — managed-agent summary leak (redact tool messages), big-integer timeout bypass (sequence + integer guards) |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 61.5K+ | 2 PRs — ImportError pattern, embedding dim propagation |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 2 PRs — ACL raw-download for read-grant users, Postgres import guard |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 61.5K+ | 2 PRs — ImportError pattern (closed, duplicate), embedding dim propagation (**reviewed by kartik-mem0**). 1 open |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 2 PRs — ACL raw-download for read-grant users, Postgres import guard. Both open |
+| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | — | 1 PR — Message IDs and additional_kwargs lost in OpenAI format round-trip (**reviewed**) |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 26.2K+ | 1 PR — npm path resolution with mise/asdf Node version managers (closed, same fix merged separately) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 56.0K+ | 1 PR — async tools in native tool loop |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 18.7K+ | 1 PR — AG-UI round-trip metadata loss |
-| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | — | 1 PR — Message IDs and additional_kwargs lost in OpenAI format round-trip |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 18.7K+ | 1 PR — AG-UI round-trip metadata loss (closed, not planned) |
 | [openai/openai-agents-python](https://github.com/openai/openai-agents-python) | 28.1K+ | 1 PR — incomplete tool call stream guard (closed, maintainer wanted repro) |
-| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 70K+ | 1 PR — clean up dead code, docstring, and add regression tests for Preview Text fix |
-| [mlflow/mlflow](https://github.com/mlflow/mlflow) | 10.4K+ | 1 PR — bound duplicate-metric recovery cost by batch size, not run history |
+| [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) | 70K+ | 1 PR — clean up dead code, docstring, and add regression tests for Preview Text fix (closed, solved by #14681) |
+| [mlflow/mlflow](https://github.com/mlflow/mlflow) | 10.4K+ | 1 PR — bound duplicate-metric recovery cost by batch size, not run history (closed, maintainer let original reporter work on it) |
 | [earendil-works/pi](https://github.com/earendil-works/pi) | 76.1K+ | 1 PR merged — wl-copy exit code + xclip fallback ✅ |
 | [Q00/ouroboros](https://github.com/Q00/ouroboros) | — | 1 PR merged — don't require LiteLLM for `ouroboros interview list` ✅ |
 | [thomas-villani/all2md](https://github.com/thomas-villani/all2md) | — | 1 PR merged — parallel test races in TestSplitCLIE2E ✅ |
-| [AlphaSlayer1964/kemono-dl](https://github.com/AlphaSlayer1964/kemono-dl) | — | 1 PR — pawchive image URL fix |
-| [Apex-Engineers-Inc/rustest](https://github.com/Apex-Engineers-Inc/rustest) | — | 1 PR — xfail bare decorator fix |
-| [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | — | 1 PR — BCP 47 language matching |
+| [AlphaSlayer1964/kemono-dl](https://github.com/AlphaSlayer1964/kemono-dl) | — | 1 PR — pawchive image URL fix (closed, wrong domain) |
+| [Apex-Engineers-Inc/rustest](https://github.com/Apex-Engineers-Inc/rustest) | — | 1 PR — xfail bare decorator fix (closed, major overhaul in progress) |
+| [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | — | 1 PR merged — BCP 47 language matching ✅ |
+| [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 8.2K+ | 1 PR merged — round-trip serialization of Callable types ✅ |
 
 ---
 
@@ -125,6 +128,10 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 </div>
 
 ### ✅ Merged
+
+**[deepset-ai/haystack](https://github.com/deepset-ai/haystack) — Callable serialization round-trip** — `Callable` types with explicit parameter lists couldn't survive a round-trip through serialization. Fix: handle `Callable` types with an explicit parameter list in the serializer. → **Merged** ✅ [#12122](https://github.com/deepset-ai/haystack/pull/12122)
+
+**[seevee/cap_alerts](https://github.com/seevee/cap_alerts) — BCP 47 language matching** — Language matching didn't follow BCP 47 standards, causing bare primary subtags to fail. Fix: harden language matching for bare primary subtags. → **Merged** ✅ [#60](https://github.com/seevee/cap_alerts/pull/60)
 
 **[thomas-villani/all2md](https://github.com/thomas-villani/all2md) — Parallel test races in TestSplitCLIE2E** — Tests sharing a temp directory clobbered each other's files. Fix: use `tmp_path_factory` for unique per-test directories. → **Merged** ✅ [#187](https://github.com/thomas-villani/all2md/pull/187)
 
@@ -146,13 +153,21 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 
 **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) — Message IDs and additional_kwargs lost in OpenAI format round-trip** — `convert_to_openai_messages()` stripped IDs and non-standard fields. Fix: pass `include_id=True`, save kwargs by message ID before conversion, restore lost fields after. → **Reviewed** 💬 [#7273](https://github.com/langchain-ai/langgraph/pull/7273)
 
-**[huggingface/smolagents](https://github.com/huggingface/smolagents) — `10 ** 10**8` freezes entire process** — CPython computes arbitrary-precision integers in C while holding the GIL. The thread-based `timeout()` decorator never fires because the worker never reaches a bytecode boundary. After timeout, the leaked thread still holds the GIL, blocking all subsequent executor submissions. Fix: pre-check bit-length before allowing exponentiation. → [#2564](https://github.com/huggingface/smolagents/pull/2564)
+**[openai/openai-python](https://github.com/openai/openai-python) — Streamed output lost on null response.completed** — The streaming accumulator never updated the snapshot on done events, so a null `output` field caused silent data loss. Fix: handle all four done event types in `accumulate_event()`, preserve nested model objects, and coerce dict responses before dereferencing. → **Reviewed by jbeckwith-oai** 💬 [#3517](https://github.com/openai/openai-python/pull/3517)
+
+**[openai/openai-python](https://github.com/openai/openai-python) — NO_PROXY newlines crash httpx** — A trailing newline in `NO_PROXY` becomes part of the hostname, causing `InvalidURL`. Fix: temporarily sanitize `NO_PROXY` during client construction with a thread lock for concurrency safety. → **Reviewed by jbeckwith-oai** 💬 [#3519](https://github.com/openai/openai-python/pull/3519)
+
+**[openai/openai-python](https://github.com/openai/openai-python) — Duplicate tool-call indexes from speculative decoding** — When the API sends multiple entries with the same `index`, the accumulator created duplicate physical entries that broke `tool_calls[index]` lookups. Fix: coalesce by logical index, handle sparse/out-of-order indexes, and detect dumped placeholders after `model_dump` round-trips. → **Reviewed by jbeckwith-oai** 💬 [#3521](https://github.com/openai/openai-python/pull/3521)
+
+**[huggingface/smolagents](https://github.com/huggingface/smolagents) — `10 ** 10**8` freezes entire process** — CPython computes arbitrary-precision integers in C while holding the GIL. The thread-based `timeout()` decorator never fires because the worker never reaches a bytecode boundary. After timeout, the leaked thread still holds the GIL, blocking all subsequent executor submissions. Fix: pre-check bit-length before allowing exponentiation. 27 regression tests added. → **Reviewed by ErenAta16** 💬 [#2564](https://github.com/huggingface/smolagents/pull/2564)
+
+**[huggingface/smolagents](https://github.com/huggingface/smolagents) — Managed-agent summary leaks tool messages** — `TOOL_CALL` and `TOOL_RESPONSE` messages were included in the managed-agent summary, exposing internal tool I/O. Fix: filter tool messages from the summary before rendering. → **Reviewed** 💬 [#2565](https://github.com/huggingface/smolagents/pull/2565)
 
 **[crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) — `asyncio.run()` crash in async native tools** — When the async native tool path calls `tool.run()` → `asyncio.run()`, it crashes with `RuntimeError: asyncio.run() cannot be called from a running event loop`. Fix: add async variants that use `asyncio.gather` and `await tool.arun()`. → [#6622](https://github.com/crewAIInc/crewAI/pull/6622)
 
-**[pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) — Metadata loss across AG-UI round-trip** — Seven categories of part-level fields (`id`, `provider_name`, `provider_details`) were silently dropped when messages were round-tripped through `dump_messages()`/`load_messages()`. Fix: extend existing carrier mechanisms to preserve metadata. → [#6682](https://github.com/pydantic/pydantic-ai/pull/6682)
+**[mem0ai/mem0](https://github.com/mem0ai/mem0) — Embedding dims not auto-propagated** — When embedding dimensions change, the system doesn't auto-propagate the new dims. Fix: auto-propagate embedding dimensions from embedder to vector store config. → **Reviewed by kartik-mem0** 💬 [#6493](https://github.com/mem0ai/mem0/pull/6493)
 
-**[openai/openai-python](https://github.com/openai/openai-python) — Streamed output lost on null response.completed** — The streaming accumulator never updated the snapshot on done events, so a null `output` field caused silent data loss. Fix: handle all four done event types in `accumulate_event()`. → [#3517](https://github.com/openai/openai-python/pull/3517)
+**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — Progress narration detected as final answer** — The agent loop treats progress narration as a final answer, causing premature turn completion. Fix: detect progress narration and retry the turn. → **Reviewed by GottZ** 💬 [#76013](https://github.com/NousResearch/hermes-agent/pull/76013)
 
 **[chroma-core/chroma](https://github.com/chroma-core/chroma) — NUL bytes corrupt FTS5 index** — Embedded null bytes in documents bypassed validation and corrupted the SQLite FTS5 index. Fix: reject NUL bytes before storage. → [#7474](https://github.com/chroma-core/chroma/pull/7474)
 
@@ -164,37 +179,17 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 
 **[topoteretes/cognee](https://github.com/topoteretes/cognee) — ACL read-grant users blocked from downloading raw data** — The endpoint called `get_data(user.id, data_id)` which checks `data.owner_id == user_id`, blocking users with dataset-level read grants. Fix: use the already-verified membership result instead. → [#4200](https://github.com/topoteretes/cognee/pull/4200)
 
-**[QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — npm path resolution fails with mise/asdf** — Node version managers replace `bin/npm` with a bash shim. `fs.realpathSync` succeeds but spawning `node /path/to/bash-wrapper` fails with Syntax Error. Fix: validate resolved path ends with `.js`. → [#7591](https://github.com/QwenLM/qwen-code/pull/7591)
-
-**[andrewyng/openworker](https://github.com/andrewyng/openworker) — Qwen API key auth error guidance** — When Qwen API key authentication fails, the error message is cryptic. Fix: add friendly error guidance for Qwen API key authentication failures. → [#277](https://github.com/andrewyng/openworker/pull/277)
-
-**[andrewyng/openworker](https://github.com/andrewyng/openworker) — MCP streamable-http compatibility** — The MCP client doesn't support streamable-http transport. Fix: try streamable-http first and catch httpx timeouts in MCP client fallback. → [#299](https://github.com/andrewyng/openworker/pull/299)
-
-**[andrewyng/openworker](https://github.com/andrewyng/openworker) — Plan directory chat reply** — The plan directory command doesn't reply in chat. Fix: ensure plan directory operations reply in the chat thread. → [#300](https://github.com/andrewyng/openworker/pull/300)
-
-**[andrewyng/openworker](https://github.com/andrewyng/openworker) — Run shell session allowlist** — The run shell session command doesn't respect the allowlist. Fix: enforce session allowlist for run shell commands. → [#301](https://github.com/andrewyng/openworker/pull/301)
-
-**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — KANBAN guidance gating** — KANBAN_GUIDANCE runs even when HERMES_KANBAN_TASK is not set, wasting tokens. Fix: gate KANBAN_GUIDANCE on HERMES_KANBAN_TASK being present. → [#73263](https://github.com/NousResearch/hermes-agent/pull/73263)
-
-**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — Gateway env var expansion** — Environment variables in gateway config are not expanded. Fix: expand env vars in gateway configuration values. → [#72879](https://github.com/NousResearch/hermes-agent/pull/72879)
-
-**[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — Recon loop continuation guard** — The recon loop continues even when the session is cancelled. Fix: add continuation guard to stop recon loop on session cancellation. → [#72851](https://github.com/NousResearch/hermes-agent/pull/72851)
-
-**[mem0ai/mem0](https://github.com/mem0ai/mem0) — ImportError on no input or exit** — The CLI crashes with ImportError when no input or exit is provided. Fix: guard the import with a try/except for graceful fallback. → [#6490](https://github.com/mem0ai/mem0/pull/6490)
-
-**[mem0ai/mem0](https://github.com/mem0ai/mem0) — Embedding dims not auto-propagated** — When embedding dimensions change, the system doesn't auto-propagate the new dims. Fix: auto-propagate embedding dimensions on config change. → [#6493](https://github.com/mem0ai/mem0/pull/6493)
-
-**[AlphaSlayer1964/kemono-dl](https://github.com/AlphaSlayer1964/kemono-dl) — Pawchive image URL parsing** — The pawchive image URL format changed, breaking downloads. Fix: update URL parsing to match the new format. → [#261](https://github.com/AlphaSlayer1964/kemono-dl/pull/261)
-
-**[Apex-Engineers-Inc/rustest](https://github.com/Apex-Engineers-Inc/rustest) — xfail bare decorator** — `@pytest.mark.xfail` without a reason argument causes issues. Fix: support bare xfail decorator without arguments. → [#138](https://github.com/Apex-Engineers-Inc/rustest/pull/138)
-
-**[seevee/cap_alerts](https://github.com/seevee/cap_alerts) — BCP 47 language matching** — Language matching doesn't follow BCP 47 standards. Fix: implement proper BCP 47 language tag matching. → [#60](https://github.com/seevee/cap_alerts/pull/60)
+**[andrewyng/openworker](https://github.com/andrewyng/openworker) — Tool-call/result pairing breaks on load** — Mismatched tool-call and tool-result IDs on session load caused unrecoverable 400 errors. Fix: repair pairing on load. → [#350](https://github.com/andrewyng/openworker/pull/350)
 
 ### 🔴 Closed
 
 **[langchain-ai/langchain](https://github.com/langchain-ai/langchain) — PydanticOutputParser type coercion** — List-to-str and str-to-list field types in PydanticOutputParser failed silently. Fix: coerce types at parse boundary. → *Auto-closed (no issue assignment)* [#38996](https://github.com/langchain-ai/langchain/pull/38996)
 
 **[openai/openai-agents-python](https://github.com/openai/openai-agents-python) — Incomplete tool call stream guard** — Non-buffered Chat Completions stream could emit incomplete tool calls that crashed the parser. Fix: guard against partial tool call payloads. → *Closed (maintainer wanted real-provider repro)* [#3912](https://github.com/openai/openai-agents-python/pull/3912)
+
+**[mem0ai/mem0](https://github.com/mem0ai/mem0) — ImportError on no input or exit** — The CLI crashes with ImportError when no input or exit is provided. Fix: guard the import with a try/except for graceful fallback. → *Closed (duplicate of #6119)* [#6490](https://github.com/mem0ai/mem0/pull/6490)
+
+**[mlflow/mlflow](https://github.com/mlflow/mlflow) — Duplicate-metric recovery cost** — Bounded duplicate-metric recovery cost by batch size instead of scanning full run history. → *Closed (maintainer: let original reporter work on it)* [#24612](https://github.com/mlflow/mlflow/pull/24612)
 
 ---
 
