@@ -90,7 +90,7 @@ Governance is not a brake on innovation. It is the foundation that lets an enter
 
 I fix real bugs in production-grade AI infrastructure the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix not a typo, not a docs tweak.
 
-**93 PRs across 25 repos** — 8 merged, 38 open, 47 closed.
+**93 PRs across 26 repos** — 9 merged, 37 open, 47 closed.
 
 | Repo | Stars | Impact |
 |------|-------|--------|
@@ -104,7 +104,7 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 4 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing, tracer copy, task cancel IndexError (all auto-closed, no assignment) |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 61.5K+ | 2 PRs — ImportError pattern (closed, duplicate), embedding dim propagation (**reviewed by kartik-mem0**). 1 open |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 2 PRs — ACL raw-download for read-grant users, Postgres import guard. Both open |
-| [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) | — | 1 PR — Message IDs and additional_kwargs lost in OpenAI format round-trip (**reviewed**) |
+| [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community) | — | 1 PR **merged** ✅ — preserve nested map shape in FalkorDB param coercion |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 26.2K+ | 1 PR — npm path resolution with mise/asdf Node version managers (closed, same fix merged separately) |
 | [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | 56.0K+ | 1 PR — async tools in native tool loop |
@@ -150,8 +150,6 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 ### 🟡 Active
 
 **[langgenius/dify](https://github.com/langgenius/dify) — PG logical replication breaks on generated columns** — PostgreSQL with `wal_level=logical` rejects `STORED GENERATED` columns in replica identity. Fix: replace generated column + unique constraint with a partial unique index. → **Approved** ✅ [#39473](https://github.com/langgenius/dify/pull/39473)
-
-**[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) — Message IDs and additional_kwargs lost in OpenAI format round-trip** — `convert_to_openai_messages()` stripped IDs and non-standard fields. Fix: pass `include_id=True`, save kwargs by message ID before conversion, restore lost fields after. → **Reviewed** 💬 [#7273](https://github.com/langchain-ai/langgraph/pull/7273)
 
 **[openai/openai-python](https://github.com/openai/openai-python) — Streamed output lost on null response.completed** — The streaming accumulator never updated the snapshot on done events, so a null `output` field caused silent data loss. Fix: handle all four done event types in `accumulate_event()`, preserve nested model objects, and coerce dict responses before dereferencing. → **Reviewed by jbeckwith-oai** 💬 [#3517](https://github.com/openai/openai-python/pull/3517)
 
