@@ -90,7 +90,7 @@ Governance is not a brake on innovation. It is the foundation that lets an enter
 
 I fix real bugs in production-grade AI infrastructure the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix not a typo, not a docs tweak.
 
-**101 PRs across 24 repos** — 9 merged, 39 open, 53 closed.
+**101 PRs across 24 repos** — 10 merged, 38 open, 53 closed.
 
 | Repo | Stars | Impact |
 |------|-------|--------|
@@ -103,7 +103,7 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | 28.5K+ | 3 PRs — managed-agent summary leak (**reviewed**), big-integer timeout bypass (**reviewed**), default model replacement. All 3 open |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 4 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing, tracer copy, task cancel IndexError (all auto-closed, no assignment) |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 61.5K+ | 2 PRs — ImportError pattern (closed, duplicate), embedding dim propagation (**reviewed by kartik-mem0**). 1 open |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 2 PRs — ACL raw-download for read-grant users, Postgres import guard. Both closed |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | 29.1K+ | 3 PRs — ACL raw-download for read-grant users **merged via CI mirror** ✅, Postgres import guard, + 1 merged. 2 closed |
 | [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community) | — | 1 PR **merged** ✅ — preserve nested map shape in FalkorDB param coercion |
 | [agno-agi/agno](https://github.com/agno-agi/agno) | 41.3K+ | 2 PRs — mutable default arguments, team history subteam query (closed, no assignment) |
 | [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) | 26.2K+ | 1 PR — npm path resolution with mise/asdf Node version managers (closed, same fix merged separately) |
@@ -127,6 +127,8 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 </div>
 
 ### ✅ Merged
+
+**[topoteretes/cognee](https://github.com/topoteretes/cognee) — ACL readers blocked from downloading raw data** — When a user with a dataset-level read grant tried to download raw data, the endpoint called `get_data(user.id, data_id)` which checked `data.owner_id == user_id`, blocking ACL-granted readers. Fix: use dataset-membership check instead. → **Merged** ✅ [#4468](https://github.com/topoteretes/cognee/pull/4468) (CI mirror of [#4200](https://github.com/topoteretes/cognee/pull/4200))
 
 **[seevee/cap_alerts](https://github.com/seevee/cap_alerts) — BCP 47 language matching** — Language matching didn't follow BCP 47 standards, causing bare primary subtags to fail. Fix: harden language matching for bare primary subtags. → **Merged** ✅ [#60](https://github.com/seevee/cap_alerts/pull/60)
 
