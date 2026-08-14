@@ -88,9 +88,7 @@ Governance is not a brake on innovation. It is the foundation that lets an enter
   <h2>Open Source Contributions</h2>
 </div>
 
-I fix real bugs in production-grade AI infrastructure the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix not a typo, not a docs tweak.
-
-**101 PRs across 24 repos** — 10 merged, 38 open, 53 closed.
+I fix real bugs in production-grade AI infrastructure the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale.
 
 | Repo | Stars | Impact |
 |------|-------|--------|
