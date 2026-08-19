@@ -88,15 +88,17 @@ Governance is not a brake on innovation. It is the foundation that lets an enter
   <h2>Open Source Contributions</h2>
 </div>
 
-I fix real bugs in production-grade AI infrastructure the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale.
+I fix real bugs in production-grade AI infrastructure the kind that silently corrupt data, break under concurrency, or fail in edge cases that only surface at scale. Every single one is a genuine bug fix not a typo, not a docs tweak.
+
+**103 PRs across 24 repos** — 12 merged, 37 open, 54 closed.
 
 | Repo | Stars | Impact |
 |------|-------|--------|
-| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **3 PRs merged** ✅ — email validator fix, audio-to-text 400 error, Agent node completion params. 5 open: MCP timeout, PG logical replication (**approved**), system message ordering, agent files by model feature, AGENT_BACKEND_BASE_URL error msg. 7 closed |
+| [langgenius/dify](https://github.com/langgenius/dify) | 149K+ | **3 PRs merged** ✅ — email validator fix, audio-to-text 400 error, Agent node completion params. **1 approved** ✅ — PG logical replication. 5 open: MCP timeout, system message ordering, agent files by model feature, AGENT_BACKEND_BASE_URL error msg. 7 closed |
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 217K+ | 27 PRs — cwd-shaped path detection, Telegram caption retry, environment shutdown guard, model override rehydration, KANBAN guidance gating, gateway env var expansion, recon loop continuation guard, progress narration detection, SSL cipher fix. 6 open, 21 closed (high dup rate from hermes-sweeper bot) |
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 28.8K | 9 PRs — path normalization, fixture registration, NUL byte FTS5 corruption, include-list mutation, dependency cleanup, naming bugs. 8 open, 1 closed |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | 28.8K | 11 PRs — path normalization, fixture registration (**approved** ✅), NUL byte FTS5 corruption, include-list mutation, dependency cleanup (**2 merged** ✅), Gemini example fix, unused testcontainers removal. 6 open, 2 merged, 3 closed |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 153K+ | 7 PRs — charset detection, ignoreRobotsTxt forwarding, community link fix **merged** ✅, batch pagination default, crawl pagination default. 4 open, 1 merged, 2 closed |
-| [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | 4 PRs — null output guard (**reviewed by jbeckwith-oai**), NO_PROXY sanitization (**reviewed**), stream drain, list merge by logical index (**reviewed**). All 4 open |
+| [openai/openai-python](https://github.com/openai/openai-python) | 31.1K | 4 PRs — null output guard (**re-review requested**), NO_PROXY sanitization (**re-review requested**), stream drain (**approved**), list merge by logical index (**re-review requested**). All 4 open |
 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | — | 7 PRs — Qwen auth error guidance, MCP streamable-http compat, plan directory chat reply, run shell session allowlist, coverage measurement, tool-call pairing repair, PR approval gate. All 7 open |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | 28.5K+ | 3 PRs — managed-agent summary leak (**reviewed**), big-integer timeout bypass (**reviewed**), default model replacement. All 3 open |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 101K+ | 4 PRs — PydanticOutputParser type coercion, OpenAI phased response parsing, tracer copy, task cancel IndexError (all auto-closed, no assignment) |
@@ -125,6 +127,10 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 </div>
 
 ### ✅ Merged
+
+**[chroma-core/chroma](https://github.com/chroma-core/chroma) — Unused testcontainers dependency** — The ollama embedding function tests imported `testcontainers` but never used it. Fix: remove the unused import. → **Merged** ✅ [#7467](https://github.com/chroma-core/chroma/pull/7467)
+
+**[chroma-core/chroma](https://github.com/chroma-core/chroma) — Wrong class name in Gemini example** — The gemini example referenced `GoogleGenerativeAIEmbeddingFunction` (uppercase `AI`), but the actual class is `GoogleGenerativeAiEmbeddingFunction` (lowercase `i`). Fix: correct the class name. → **Merged** ✅ [#7468](https://github.com/chroma-core/chroma/pull/7468)
 
 **[topoteretes/cognee](https://github.com/topoteretes/cognee) — ACL readers blocked from downloading raw data** — When a user with a dataset-level read grant tried to download raw data, the endpoint called `get_data(user.id, data_id)` which checked `data.owner_id == user_id`, blocking ACL-granted readers. Fix: use dataset-membership check instead. → **Merged** ✅ [#4468](https://github.com/topoteretes/cognee/pull/4468) (CI mirror of [#4200](https://github.com/topoteretes/cognee/pull/4200))
 
