@@ -198,9 +198,7 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 <div align="center">
   <h2>GitHub Stats</h2>
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rkfshakti&show_icons=true&hide_border=true&bg_color=00000000&text_color=6A0DAD&icon_color=FF6B35&title_color=6A0DAD&count_private=true&include_all_commits=true)](https://github.com/rkfshakti)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rkfshakti&layout=compact&hide_border=true&bg_color=00000000&text_color=6A0DAD&title_color=6A0DAD)](https://github.com/rkfshakti)
+[![GitHub Stats](https://github-stats-alpha.vercel.app/api?username=rkfshakti&title_color=6A0DAD&text_color=6A0DAD&icon_color=FF6B35&border_color=6A0DAD)](https://github.com/rkfshakti)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=rkfshakti&hide_border=true&date_format=j%20M%5B%20Y%5D&background=00000000&stroke=6A0DAD&ring=6A0DAD&fire=FF6B35&currStreakLabel=6A0DAD)](https://git.io/streak-stats)
 
