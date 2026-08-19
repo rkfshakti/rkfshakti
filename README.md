@@ -197,15 +197,12 @@ I fix real bugs in production-grade AI infrastructure the kind that silently cor
 <!-- Section: GitHub Stats -->
 <div align="center">
   <h2>GitHub Stats</h2>
-</div>
 
-<div align="center">
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rkfshakti&show_icons=true&hide_border=true&bg_color=00000000&text_color=6A0DAD&icon_color=FF6B35&title_color=6A0DAD&count_private=true&include_all_commits=true)](https://github.com/rkfshakti)
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=rkfshakti&layout=compact&hide_border=true&bg_color=00000000&text_color=6A0DAD&title_color=6A0DAD)](https://github.com/rkfshakti)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=rkfshakti&hide_border=true&date_format=j%20M%5B%20Y%5D&background=00000000&stroke=6A0DAD&ring=6A0DAD&fire=FF6B35&currStreakLabel=6A0DAD)](https://git.io/streak-stats)
-
-</div>
-
-<div align="center">
 
 [![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rkfshakti&theme=minimal&hide_border=true&color=6A0DAD&line=6A0DAD&point=FF6B35&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
