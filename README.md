@@ -92,19 +92,17 @@ I actively contribute to production-grade AI infrastructure — fixing real bugs
 
 **Merged contributions:**
 
-| Repo | What Was Merged |
-|------|-----------------|
-| [langgenius/dify](https://github.com/langgenius/dify) | Audio-to-text 400 error handling, email validator hardening, Agent node completion params |
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) | Gemini embedding example fix, ollama testcontainers cleanup |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | Approval gating for `github_clone` / `github_pull` tools |
-| [optuna/optuna](https://github.com/optuna/optuna) | Preserve metric order in trials dataframe columns |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Dataset-membership access check in raw-download endpoint |
-| [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community) | FalkorDB nested map param coercion |
-| [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | Language matching for bare primary subtags |
-| [Q00/ouroboros](https://github.com/Q00/ouroboros) | CLI no longer requires LiteLLM for interview list |
-| [thomas-villani/all2md](https://github.com/thomas-villani/all2md) | Parallel test race fix with `tmp_path_factory` |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | Community link fix in README |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | `wl-copy` exit code handling with xclip fallback |
+- [langgenius/dify](https://github.com/langgenius/dify)
+- [chroma-core/chroma](https://github.com/chroma-core/chroma)
+- [andrewyng/openworker](https://github.com/andrewyng/openworker)
+- [optuna/optuna](https://github.com/optuna/optuna)
+- [topoteretes/cognee](https://github.com/topoteretes/cognee)
+- [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community)
+- [seevee/cap_alerts](https://github.com/seevee/cap_alerts)
+- [Q00/ouroboros](https://github.com/Q00/ouroboros)
+- [thomas-villani/all2md](https://github.com/thomas-villani/all2md)
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)
+- [earendil-works/pi](https://github.com/earendil-works/pi)
 
 Here are some of the key projects where I'm an active contributor and collaborator:
 
