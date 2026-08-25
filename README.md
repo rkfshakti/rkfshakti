@@ -90,6 +90,22 @@ Governance is not a brake on innovation. It is the foundation that lets an enter
 
 I actively contribute to production-grade AI infrastructure — fixing real bugs in agentic frameworks, LLM platforms, vector databases, and AI tooling. The kind of issues that silently corrupt data, break under concurrency, or surface only at scale.
 
+**Merged contributions:**
+
+| Repo | What Was Merged |
+|------|-----------------|
+| [langgenius/dify](https://github.com/langgenius/dify) | Audio-to-text 400 error handling, email validator hardening, Agent node completion params |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | Gemini embedding example fix, ollama testcontainers cleanup |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | Approval gating for `github_clone` / `github_pull` tools |
+| [optuna/optuna](https://github.com/optuna/optuna) | Preserve metric order in trials dataframe columns |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Dataset-membership access check in raw-download endpoint |
+| [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community) | FalkorDB nested map param coercion |
+| [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | Language matching for bare primary subtags |
+| [Q00/ouroboros](https://github.com/Q00/ouroboros) | CLI no longer requires LiteLLM for interview list |
+| [thomas-villani/all2md](https://github.com/thomas-villani/all2md) | Parallel test race fix with `tmp_path_factory` |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | Community link fix in README |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | `wl-copy` exit code handling with xclip fallback |
+
 Here are some of the key projects where I'm an active contributor and collaborator:
 
 | Repo | Focus Area |
@@ -115,17 +131,13 @@ Here are some of the key projects where I'm an active contributor and collaborat
 
 | Repo | What I'm Working On |
 |------|---------------------|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Agent reliability, profile isolation, TUI stability, and cross-platform compatibility |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Gemini token budget, search path handling, SSL ciphers, update-check reliability |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Log redaction, Gemma model token limits, embedding dim propagation |
 | [langgenius/dify](https://github.com/langgenius/dify) | Agent node defaults, MCP client resilience, email validation, file handling, and database migrations |
 | [openai/openai-python](https://github.com/openai/openai-python) | SDK correctness and edge case handling in the official Python client |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Agent framework reliability and type-safe agent interactions |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) | Embedding function correctness, FTS robustness, and dependency hygiene |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | Code agent reliability and tool-use edge cases |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Multi-agent execution stability and task coordination |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Agent memory retrieval and persistence correctness |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | Web scraping reliability and data extraction for AI pipelines |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Cognitive graph operations and memory integration |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | Agent workflow execution and tool integration |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | Tool-call/result pairing, MCP compatibility, approval gating |
 
 ---
 
