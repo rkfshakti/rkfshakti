@@ -94,9 +94,9 @@ I actively contribute to production-grade AI infrastructure — fixing real bugs
 
 | | | | | |
 |---|---|---|---|---|
-| [langgenius/dify](https://github.com/langgenius/dify) | [chroma-core/chroma](https://github.com/chroma-core/chroma) | [andrewyng/openworker](https://github.com/andrewyng/openworker) | [optuna/optuna](https://github.com/optuna/optuna) | [topoteretes/cognee](https://github.com/topoteretes/cognee) |
-| [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community) | [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | [Q00/ouroboros](https://github.com/Q00/ouroboros) | [thomas-villani/all2md](https://github.com/thomas-villani/all2md) | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | | | | |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [langgenius/dify](https://github.com/langgenius/dify) | [chroma-core/chroma](https://github.com/chroma-core/chroma) | [andrewyng/openworker](https://github.com/andrewyng/openworker) | [optuna/optuna](https://github.com/optuna/optuna) |
+| [topoteretes/cognee](https://github.com/topoteretes/cognee) | [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community) | [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | [Q00/ouroboros](https://github.com/Q00/ouroboros) | [thomas-villani/all2md](https://github.com/thomas-villani/all2md) |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | [earendil-works/pi](https://github.com/earendil-works/pi) | | | |
 
 Here are some of the key projects where I'm an active contributor and collaborator:
 
