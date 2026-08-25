@@ -102,7 +102,7 @@ Here are some of the key projects where I'm an active contributor and collaborat
 
 | Repo | Focus Area |
 |------|-----------|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Agentic AI framework — actively collaborating on bug fixes and improvements |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Agentic AI framework — actively collaborating on improvements |
 | [langgenius/dify](https://github.com/langgenius/dify) | LLM application platform — contributing across agent nodes, API reliability, and data layer |
 | [openai/openai-python](https://github.com/openai/openai-python) | OpenAI Python SDK — contributing to the official client library |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Agentic AI framework — collaborating on the Pydantic-powered agent ecosystem |
