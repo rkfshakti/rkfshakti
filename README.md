@@ -20,9 +20,9 @@
   <h2>Who I Am</h2>
 </div>
 
-I sit with numbers, find what they're actually saying, and build systems that make organisations act on it — autonomously, at scale. Over 10 years across BFSI, CPG, energy, and healthcare; MBA from Liverpool Business School, UK.
+I sit with numbers, find what they're actually saying, and build systems that make organisations act on it autonomously, at scale. Over 10 years across BFSI, CPG, energy, and healthcare; MBA from Liverpool Business School, UK.
 
-The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. The best AI systems are the ones nobody notices — they just work.
+The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. The best AI systems are the ones nobody notices they just work.
 
 ---
 
