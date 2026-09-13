@@ -27,33 +27,48 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
 ---
 
 <div align="center">
-  <h2>💻 Favorite Tools & Technologies</h2>
+  <h2>Tools & Technologies</h2>
 </div>
 
-<table align="center">
-  <tr>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" /><br>Python</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" /><br>FastAPI</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=langchain" width="48" height="48" alt="LangChain" /><br>LangChain</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" /><br>PyTorch</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" /><br>TensorFlow</td>
-    <td align="center" width="96"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="48" height="48" alt="Hugging Face" /><br>Hugging Face</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" /><br>AWS</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" /><br>Azure</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="GCP" /><br>GCP</td>
-  </tr>
-  <tr>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" /><br>Docker</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes" /><br>Kubernetes</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" /><br>PostgreSQL</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" /><br>Redis</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" /><br>Git</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions" /><br>GH Actions</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash" /><br>Bash</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" /><br>Linux</td>
-    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" /><br>VS Code</td>
-  </tr>
-</table>
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?logo=langchain&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF6B35)
+![smolagents](https://img.shields.io/badge/smolagents-FFD21F?logo=huggingface&logoColor=black)
+![Pydantic AI](https://img.shields.io/badge/Pydantic%20AI-E92063?logo=pydantic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-6A0DAD)
+![DSPy](https://img.shields.io/badge/DSPy-FF6F00)
+![Haystack](https://img.shields.io/badge/Haystack-0F80CC)
+
+![Claude](https://img.shields.io/badge/Claude-D97757?logo=anthropic&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?logo=cursor&logoColor=white)
+![Windsurf](https://img.shields.io/badge/Windsurf-09B6A2)
+![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21F?logo=huggingface&logoColor=black)
+![Chroma](https://img.shields.io/badge/Chroma-FC521F)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C)
+![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7)
+
+![AWS Bedrock](https://img.shields.io/badge/AWS%20Bedrock-232F3E?logo=amazonaws&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?logo=microsoftazure&logoColor=white)
+![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?logo=googlecloud&logoColor=white)
+![SageMaker](https://img.shields.io/badge/SageMaker-569A31?logo=amazonsagemaker&logoColor=white)
+![Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=awslambda&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?logo=redis&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+
+</div>
 
 ---
 
@@ -89,24 +104,21 @@ I fix real bugs in production-grade AI infrastructure — agentic frameworks, LL
 ---
 
 <div align="center">
-  <h2>📊 GitHub Stats</h2>
+  <h2>GitHub Stats</h2>
 </div>
 
 <div align="center">
   <a href="https://github.com/rkfshakti">
-    <picture><img height="160" src="https://github-readme-stats-one-bice.vercel.app/api?username=rkfshakti&theme=gotham&show_icons=true&count_private=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&hide_border=true" alt="rkfshakti's GitHub stats" /></picture>
+    <picture><img height="160" src="https://github-readme-stats-one-bice.vercel.app/api?username=rkfshakti&theme=gotham&show_icons=true&count_private=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&hide_border=true&hide_rank=true" alt="rkfshakti's GitHub stats" /></picture>
   </a>
-  <a href="https://github.com/rkfshakti?tab=stars">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=rkfshakti&theme=gotham&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="48%" alt="rkfshakti's streak stats" />
+  <a href="https://git.io/streak-stats">
+    <img src="./profile/streak.svg" width="48%" alt="rkfshakti's streak stats" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://github.com/rkfshakti">
-    <picture><img height="160" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=rkfshakti&theme=gotham&layout=compact&langs_count=8&count_private=true&hide_border=true" alt="Top languages" /></picture>
-  </a>
-  <a href="https://github.com/rkfshakti">
-    <picture><img height="160" src="https://beautiful-github-homepage.vercel.app/api?username=rkfshakti&theme=gotham&hide_title=true&show_icons=true&include_all_commits=true&hide_border=true" alt="rkfshakti's beautiful stats" /></picture>
+    <picture><img height="160" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=rkfshakti&theme=gotham&layout=compact&count_private=true&hide_border=true&hide=Jupyter%20Notebook,HTML,CSS,JavaScript,TypeScript,SCSS,Shell,Dockerfile,Makefile" alt="Top languages: Python, Go, Rust, Ruby" /></picture>
   </a>
 </div>
 
@@ -133,12 +145,13 @@ Open to architecture challenges, enterprise AI strategy, freelance engagements, 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
+[![X](https://img.shields.io/badge/X-@rkfshakti-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rkfshakti)
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://rkfshakti.github.io)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
 
-![Profile views](https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&color=6A0DAD&style=flat)
+![Profile views](https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&base=73&color=6A0DAD&style=flat)
 
 </div>
 
