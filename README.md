@@ -8,89 +8,62 @@
 <!-- Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://rkfshakti.github.io)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
-
-**10+ years in IT** &nbsp;|&nbsp; **MBA, Liverpool Business School, United Kingdom** &nbsp;|&nbsp; **India**
 
 </div>
 
 ---
 
-<!-- Section: Who I Am -->
 <div align="center">
   <h2>Who I Am</h2>
 </div>
 
-Intelligence is the new infrastructure. I'm the architect.
+I sit with numbers, find what they're actually saying, and build systems that make organisations act on it — autonomously, at scale. Over 10 years across BFSI, CPG, energy, and healthcare; MBA from Liverpool Business School, UK.
 
-Not the kind who draws boxes on whiteboards. The kind who sits with the numbers, finds what they are actually saying, and builds systems that make organisations act on it. Autonomously. At scale. Reliably.
-
-Over 10 years in IT, from business analyst to GenAI architect always following the data. I've led cross-functional teams across the US and Middle East, engaged C-suite stakeholders on AI strategy, and driven real transformation in financial services (BFSI), consumer goods (CPG), energy (EPG), and healthcare (HLM).
-
-MBA from Liverpool Business School, UK not to step away from technology, but to understand the business problems well enough to solve them with it.
-
-What drives me: the 10-day process that becomes 2 hours. The 3% error rate that drops to under 0.5%. The alert noise cut by 30%. The best AI systems are the ones nobody notices, because they just work.
+The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. The best AI systems are the ones nobody notices — they just work.
 
 ---
 
-<!-- Section: What I Build -->
 <div align="center">
-  <h2>What I Build</h2>
+  <h2>💻 Favorite Tools & Technologies</h2>
 </div>
 
-I build the systems that make AI useful in production — not demos, not prototypes. The work that turns a model into a reliable, observable, autonomous system that enterprises can actually depend on.
-
-**Agent Harness Engineering** Designing the scaffolding around frontier models: context resets, structured handoffs, generator-evaluator loops, and sprint contracts that keep long-running agents coherent across multi-hour sessions. Inspired by Anthropic's harness design research and the GAN-inspired generator-evaluator pattern.
-
-**Loop Engineering** Building self-correcting agent loops where an evaluator agent grades outputs against concrete criteria, feeds critique back to the generator, and iterates until quality thresholds are met. Turning subjective judgments ("is this good?") into gradable, testable contracts.
-
-**Context Engineering** Managing what enters the context window, when, and in what form. Compaction, retrieval-augmented context, and structured artifacts (progress files, feature lists) that let agents pick up where the last session left off without guessing.
-
-**Multi-Agent Orchestration** Planner → generator → evaluator architectures, A2A and MCP protocols, and frameworks like LangGraph, CrewAI, and the OpenAI Agents SDK. Orchestrating specialized agents that each own a slice of the SDLC.
-
-**LLM Platform & Vector Infrastructure** AWS Bedrock, Azure OpenAI & Foundry, Vertex AI for model serving; Pinecone, FAISS, ChromaDB, and Azure AI Search for retrieval. Building the retrieval and serving layer that production agents depend on.
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![CrewAI](https://img.shields.io/badge/CrewAI-FF6B35?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-6A0DAD?style=flat-square) ![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) ![Vertex AI](https://img.shields.io/badge/Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-</div>
-
-**Open to freelance, collaboration, and technical co-founder conversations.**
+<table align="center">
+  <tr>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" /><br>Python</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" alt="FastAPI" /><br>FastAPI</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=langchain" width="48" height="48" alt="LangChain" /><br>LangChain</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" /><br>PyTorch</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=tensorflow" width="48" height="48" alt="TensorFlow" /><br>TensorFlow</td>
+    <td align="center" width="96"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="48" height="48" alt="Hugging Face" /><br>Hugging Face</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" /><br>AWS</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=azure" width="48" height="48" alt="Azure" /><br>Azure</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=gcp" width="48" height="48" alt="GCP" /><br>GCP</td>
+  </tr>
+  <tr>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker" /><br>Docker</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" alt="Kubernetes" /><br>Kubernetes</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" /><br>PostgreSQL</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" /><br>Redis</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" /><br>Git</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=githubactions" width="48" height="48" alt="GitHub Actions" /><br>GH Actions</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash" /><br>Bash</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" /><br>Linux</td>
+    <td align="center" width="96"><img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" /><br>VS Code</td>
+  </tr>
+</table>
 
 ---
 
-<!-- Section: Governance & AI Ethics -->
-<div align="center">
-  <h2>Governance & AI Ethics</h2>
-</div>
-
-An architect who ships without a governance layer is shipping liability. I build AI systems that are not just capable but accountable — designed to pass audit, survive regulatory scrutiny, and earn the trust of the business and its customers.
-
-**Regulatory Alignment** I design against the frameworks that matter in 2026: the **EU AI Act** (risk-tiered obligations, high-risk system conformity assessments, GPAI transparency duties, now in force), the **NIST AI Risk Management Framework** (Govern–Map–Measure–Manage lifecycle), and **ISO/IEC 42001** (the first certifiable AI management system standard). For any system touching EU users or regulated sectors, compliance is designed in from day one — not bolted on after launch.
-
-**Responsible AI by Design** Bias detection and mitigation in training data and model outputs. Human-in-the-loop checkpoints for high-stakes decisions. Explainability and audit trails so every automated decision can be traced, justified, and challenged. Model cards and system documentation as living artifacts, not afterthoughts.
-
-**Agent Containment & Safety** As agents grow more autonomous, blast radius grows with them. I design containment boundaries, permission scoping, and tool-use guardrails so an agent that goes off-script cannot take production systems with it. Inspired by Anthropic's containment research for Claude Code and Cowork.
-
-**Data Governance** PII handling, retention policies, and data lineage that satisfy GDPR and sector-specific privacy regimes. Retrieval pipelines that respect access controls — no leaking privileged context across tenants or user boundaries.
-
-**Transparency & Disclosure** AI-generated content labelling, chatbot disclosure, and deepfake detection readiness — aligned with the EU AI Act's transparency obligations taking effect August 2026.
-
-Governance is not a brake on innovation. It is the foundation that lets an enterprise deploy AI with confidence.
-
----
-
-<!-- Section: Open Source Contributions -->
 <div align="center">
   <h2>Open Source Contributions</h2>
 </div>
 
-I actively contribute to production-grade AI infrastructure — fixing real bugs in agentic frameworks, LLM platforms, vector databases, and AI tooling. The kind of issues that silently corrupt data, break under concurrency, or surface only at scale.
+I fix real bugs in production-grade AI infrastructure — agentic frameworks, LLM platforms, vector databases, AI tooling. The kind of issues that silently corrupt data, break under concurrency, or surface only at scale.
 
-**Merged contributions:**
+**Merged**
 
 | | | | | |
 |---|---|---|---|---|
@@ -98,68 +71,74 @@ I actively contribute to production-grade AI infrastructure — fixing real bugs
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community) | [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | [Q00/ouroboros](https://github.com/Q00/ouroboros) | [thomas-villani/all2md](https://github.com/thomas-villani/all2md) |
 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | [earendil-works/pi](https://github.com/earendil-works/pi) | | | |
 
-Here are some of the key projects where I'm an active contributor and collaborator:
+**Notable open PRs**
 
-| Repo | Focus Area |
-|------|-----------|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Agentic AI framework — actively collaborating on improvements |
-| [langgenius/dify](https://github.com/langgenius/dify) | LLM application platform — contributing across agent nodes, API reliability, and data layer |
-| [openai/openai-python](https://github.com/openai/openai-python) | OpenAI Python SDK — contributing to the official client library |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | Agentic AI framework — collaborating on the Pydantic-powered agent ecosystem |
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) | Vector database — contributing to the AI-native embedding store |
-| [huggingface/smolagents](https://github.com/huggingface/smolagents) | Lightweight agent framework — contributing to the Hugging Face agent ecosystem |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Multi-agent orchestration — contributing to agent coordination patterns |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Memory layer for AI agents — contributing to persistent agent memory |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | Web data for AI — contributing to the AI data ingestion pipeline |
-| [topoteretes/cognee](https://github.com/topoteretes/cognee) | Cognitive graph memory — contributing to agentic memory and knowledge graphs |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | Agentic workflow platform — contributing to the open agent ecosystem |
-
----
-
-<!-- Section: Recent Impact -->
-<div align="center">
-  <h2>Recent Impact</h2>
-</div>
-
-| Repo | What I'm Working On |
-|------|---------------------|
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Gemini token budget, search path handling, SSL ciphers, update-check reliability |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Log redaction, Gemma model token limits, embedding dim propagation |
-| [langgenius/dify](https://github.com/langgenius/dify) | Agent node defaults, MCP client resilience, email validation, file handling, and database migrations |
-| [openai/openai-python](https://github.com/openai/openai-python) | SDK correctness and edge case handling in the official Python client |
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) | Embedding function correctness, FTS robustness, and dependency hygiene |
+| Repo | Contribution |
+|------|-------------|
+| [livekit/sip](https://github.com/livekit/sip) | In-dialog request routing via proxy Record-Route; media-drain before BYE to prevent voicemail clipping |
+| [livekit/livekit](https://github.com/livekit/livekit) | Room re-create race: pre-clear room state so same-name recreate gets a fresh SID |
+| [livekit/protocol](https://github.com/livekit/protocol) | SIP header value cap raised to 4KB for carrier tokens (X-Twilio-CallToken) |
+| [livekit/agents](https://github.com/livekit/agents) | Soniox final-span timing: all timed tokens, never regress end_time |
+| [openai/openai-python](https://github.com/openai/openai-python) | Drain remaining bytes after `[DONE]` before closing streaming responses |
+| [langgenius/dify](https://github.com/langgenius/dify) | PG logical replication fix; agent file type filtering; MCP client timeout fallback |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | Embedding function correctness, FTS robustness, dependency hygiene |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Async native tool calling in the invocation loop |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | Log redaction for sensitive content; embedding dims auto-propagation |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | Code agent reliability and tool-use edge cases |
-| [andrewyng/openworker](https://github.com/andrewyng/openworker) | Tool-call/result pairing, MCP compatibility, approval gating |
 
 ---
 
-<!-- Section: GitHub Stats -->
 <div align="center">
-  <h2>GitHub Stats</h2>
+  <h2>📊 GitHub Stats</h2>
 </div>
 
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rkfshakti&theme=minimal&hide_border=true&color=6A0DAD&line=6A0DAD&point=FF6B35&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<div align="center">
+  <a href="https://github.com/rkfshakti">
+    <picture><img height="160" src="https://github-readme-stats-one-bice.vercel.app/api?username=rkfshakti&theme=gotham&show_icons=true&count_private=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&hide_border=true" alt="rkfshakti's GitHub stats" /></picture>
+  </a>
+  <a href="https://github.com/rkfshakti?tab=stars">
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=rkfshakti&theme=gotham&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="48%" alt="rkfshakti's streak stats" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/rkfshakti">
+    <picture><img height="160" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=rkfshakti&theme=gotham&layout=compact&langs_count=8&count_private=true&hide_border=true" alt="Top languages" /></picture>
+  </a>
+  <a href="https://github.com/rkfshakti">
+    <picture><img height="160" src="https://beautiful-github-homepage.vercel.app/api?username=rkfshakti&theme=gotham&hide_title=true&show_icons=true&include_all_commits=true&hide_border=true" alt="rkfshakti's beautiful stats" /></picture>
+  </a>
+</div>
+
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rkfshakti/rkfshakti/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rkfshakti/rkfshakti/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/rkfshakti/rkfshakti/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
 ---
 
-<!-- Section: Let's Connect -->
 <div align="center">
   <h2>Let's Connect</h2>
 </div>
 
-I'm open to architecture challenges, enterprise AI strategy, freelance engagements, or startup ideas in the GenAI space.
-
-If you're building something that matters, let's talk.
+Open to architecture challenges, enterprise AI strategy, freelance engagements, or startup ideas in the GenAI space. If you're building something that matters, let's talk.
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://rkfshakti.github.io)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
+
+![Profile views](https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&color=6A0DAD&style=flat)
 
 </div>
 
