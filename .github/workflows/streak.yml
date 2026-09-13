@@ -21,9 +21,16 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: user=${{ github.repository_owner }}&theme=gotham&hide_border=true&hide_total_contributions=true&date_format=M%20j%5B%2C%20Y%5D
+          options: user=${{ github.repository_owner }}&theme=gotham&hide_border=true&date_format=M%20j%5B%2C%20Y%5D
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      # The generator's earliest-commit bucket reads from a 2015 account artifact;
+      # rewrite the Total Contributions range to the real start year.
+      - name: Fix contributions range label
+        run: |
+          sed -i -E 's/[A-Z][a-z]+ [0-9]{1,2}, 20[0-9]{2} - Present/2026 - Present/' profile/streak.svg
+          grep -q "2026 - Present" profile/streak.svg
 
       - name: Commit streak stats
         run: |
