@@ -22,7 +22,7 @@
 
 I sit between stakeholders and systems, uncover what the business truly needs, and build autonomous AI architectures that deliver it at scale. Over 10 years across BFSI, CPG, energy, and healthcare; MBA from Liverpool Business School, UK.
 
-The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. The best AI systems are the ones nobody notices as they just work."
+The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. The best AI systems are the ones nobody notices — they just work.
 
 ---
 
@@ -30,44 +30,315 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
   <h2>Tools & Technologies</h2>
 </div>
 
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-000000?logo=langchain&logoColor=white)
-![CrewAI](https://img.shields.io/badge/CrewAI-FF6B35)
-![smolagents](https://img.shields.io/badge/smolagents-FFD21F?logo=huggingface&logoColor=black)
-![Pydantic AI](https://img.shields.io/badge/Pydantic%20AI-E92063?logo=pydantic&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-6A0DAD)
-![DSPy](https://img.shields.io/badge/DSPy-FF6F00)
-![Haystack](https://img.shields.io/badge/Haystack-0F80CC)
-
-![Claude](https://img.shields.io/badge/Claude-D97757?logo=anthropic&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-191919?logo=anthropic&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)
-![Cursor](https://img.shields.io/badge/Cursor-000000?logo=cursor&logoColor=white)
-![Windsurf](https://img.shields.io/badge/Windsurf-09B6A2)
-![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21F?logo=huggingface&logoColor=black)
-![Chroma](https://img.shields.io/badge/Chroma-FC521F)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C)
-![Weaviate](https://img.shields.io/badge/Weaviate-00C9A7)
-
-![AWS Bedrock](https://img.shields.io/badge/AWS%20Bedrock-232F3E?logo=amazonaws&logoColor=white)
-![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-0078D4?logo=microsoftazure&logoColor=white)
-![Vertex AI](https://img.shields.io/badge/Vertex%20AI-4285F4?logo=googlecloud&logoColor=white)
-![SageMaker](https://img.shields.io/badge/SageMaker-569A31?logo=amazonsagemaker&logoColor=white)
-![Lambda](https://img.shields.io/badge/Lambda-FF9900?logo=awslambda&logoColor=white)
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?logo=redis&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
-
+<div style="display: flex; align-items: flex-start; align: center">
+    <table align="center">
+        <tr>
+            <td align="center" width="96">
+                <img src="https://techstack-generator.vercel.app/python-icon.svg" width="48" height="48" alt="Python" />
+                <br>Python
+            </td>
+            <td align="center" width="96">
+                <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48" height="48" alt="TypeScript" />
+                <br>TypeScript
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=go" width="48" height="48" alt="Go" />
+                <br>Go
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=rust" width="48" height="48" alt="Rust" />
+                <br>Rust
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/postgresql" width="48" height="48" alt="SQL" />
+                <br>SQL
+            </td>
+            <td align="center" width="96">
+                <img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="48" height="48" alt="GraphQL" />
+                <br>GraphQL
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" />
+                <br>PyTorch
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="48" height="48" alt="scikit-learn" />
+                <br>scikit-learn
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+                <br>Git
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/langchain" width="48" height="48" alt="LangChain" />
+                <br>LangChain
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/langgraph" width="48" height="48" alt="LangGraph" />
+                <br>LangGraph
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/crewai" width="48" height="48" alt="CrewAI" />
+                <br>CrewAI
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/huggingface" width="48" height="48" alt="smolagents" />
+                <br>smolagents
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/run-llama" width="48" height="48" alt="LlamaIndex" />
+                <br>LlamaIndex
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/microsoft/autogen" width="48" height="48" alt="AutoGen" />
+                <br>AutoGen
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/pydantic" width="48" height="48" alt="Pydantic AI" />
+                <br>Pydantic AI
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/stanfordnlp" width="48" height="48" alt="DSPy" />
+                <br>DSPy
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/haystack" width="48" height="48" alt="Haystack" />
+                <br>Haystack
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/agno-agi" width="48" height="48" alt="Agno" />
+                <br>Agno
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/mem0ai" width="48" height="48" alt="Mem0" />
+                <br>Mem0
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/modelcontextprotocol/6A0DAD" width="48" height="48" alt="MCP" />
+                <br>MCP
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/langgenius" width="48" height="48" alt="Dify" />
+                <br>Dify
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/n8n" width="48" height="48" alt="n8n" />
+                <br>n8n
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/topoteretes" width="48" height="48" alt="cognee" />
+                <br>cognee
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/neo4j" width="48" height="48" alt="Neo4j" />
+                <br>Neo4j
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/apachekafka" width="48" height="48" alt="Kafka" />
+                <br>Kafka
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/ray" width="48" height="48" alt="Ray" />
+                <br>Ray
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/openai" width="48" height="48" alt="OpenAI" />
+                <br>OpenAI
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/anthropic/FFFFFF" width="48" height="48" alt="Anthropic" />
+                <br>Anthropic
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/claude" width="48" height="48" alt="Claude" />
+                <br>Claude
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/googlegemini" width="48" height="48" alt="Gemini" />
+                <br>Gemini
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/xai-org" width="48" height="48" alt="xAI" />
+                <br>xAI
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/deepseek" width="48" height="48" alt="DeepSeek" />
+                <br>DeepSeek
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/mistralai" width="48" height="48" alt="Mistral" />
+                <br>Mistral
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/huggingface" width="48" height="48" alt="Hugging Face" />
+                <br>Hugging Face
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/groq" width="48" height="48" alt="Groq" />
+                <br>Groq
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/ollama/FFFFFF" width="48" height="48" alt="Ollama" />
+                <br>Ollama
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/ggml" width="48" height="48" alt="llama.cpp" />
+                <br>llama.cpp
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/vllm" width="48" height="48" alt="vLLM" />
+                <br>vLLM
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/perplexity" width="48" height="48" alt="Perplexity" />
+                <br>Perplexity
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/fastapi" width="48" height="48" alt="FastAPI" />
+                <br>FastAPI
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/redis" width="48" height="48" alt="Redis" />
+                <br>Redis
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/celery" width="48" height="48" alt="Celery" />
+                <br>Celery
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/uv" width="48" height="48" alt="uv" />
+                <br>uv
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
+                <br>Node.js
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/chroma-core" width="48" height="48" alt="Chroma" />
+                <br>Chroma
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/qdrant" width="48" height="48" alt="Qdrant" />
+                <br>Qdrant
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/weaviate" width="48" height="48" alt="Weaviate" />
+                <br>Weaviate
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/pinecone-io" width="48" height="48" alt="Pinecone" />
+                <br>Pinecone
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/milvus-io" width="48" height="48" alt="Milvus" />
+                <br>Milvus
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/pgvector" width="48" height="48" alt="pgvector" />
+                <br>pgvector
+            </td>
+            <td align="center" width="96">
+                <img src="https://avatars.githubusercontent.com/facebookresearch" width="48" height="48" alt="FAISS" />
+                <br>FAISS
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/apachespark" width="48" height="48" alt="Apache Spark" />
+                <br>Spark
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/apacheairflow" width="48" height="48" alt="Apache Airflow" />
+                <br>Airflow
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/mlflow" width="48" height="48" alt="MLflow" />
+                <br>MLflow
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/weightsandbiases" width="48" height="48" alt="Weights & Biases" />
+                <br>W&amp;B
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/opentelemetry" width="48" height="48" alt="OpenTelemetry" />
+                <br>OpenTelemetry
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/prometheus" width="48" height="48" alt="Prometheus" />
+                <br>Prometheus
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/grafana" width="48" height="48" alt="Grafana" />
+                <br>Grafana
+            </td>
+            <td align="center" width="96">
+                <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48" height="48" alt="AWS" />
+                <br>AWS
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/googlecloud" width="48" height="48" alt="GCP" />
+                <br>GCP
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="48" height="48" alt="Azure" />
+                <br>Azure
+            </td>
+            <td align="center" width="96">
+                <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="48" height="48" alt="Docker" />
+                <br>Docker
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="48" height="48" alt="Kubernetes" />
+                <br>Kubernetes
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/terraform" width="48" height="48" alt="Terraform" />
+                <br>Terraform
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/githubactions" width="48" height="48" alt="GitHub Actions" />
+                <br>GitHub Actions
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/streamlit" width="48" height="48" alt="Streamlit" />
+                <br>Streamlit
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/gradio" width="48" height="48" alt="Gradio" />
+                <br>Gradio
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/cursor/FFFFFF" width="48" height="48" alt="Cursor" />
+                <br>Cursor
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/windsurf" width="48" height="48" alt="Windsurf" />
+                <br>Windsurf
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/githubcopilot/FFFFFF" width="48" height="48" alt="Copilot" />
+                <br>Copilot
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+                <br>Linux
+            </td>
+        </tr>
+    </table>
+    <br>
+    <br>
 </div>
 
 ---
@@ -109,16 +380,17 @@ I fix real bugs in production-grade AI infrastructure agentic frameworks, LLM pl
 
 <div align="center">
   <a href="https://github.com/rkfshakti">
-    <picture><img height="160" src="https://github-readme-stats-one-bice.vercel.app/api?username=rkfshakti&theme=gotham&show_icons=true&count_private=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&hide_border=true&hide_rank=true" alt="rkfshakti's GitHub stats" /></picture>
+    <img src="https://github-readme-stats-one-bice.vercel.app/api?username=rkfshakti&theme=gotham&show_icons=true&count_private=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&hide_border=true" width="49%" alt="rkfshakti's GitHub stats" />
   </a>
   <a href="https://git.io/streak-stats">
-    <img src="./profile/streak.svg" width="48%" alt="rkfshakti's streak stats" />
+    <img src="./profile/streak.svg" width="49%" alt="rkfshakti's streak stats" />
   </a>
 </div>
+<br>
 
 <div align="center">
   <a href="https://github.com/rkfshakti">
-    <picture><img height="160" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=rkfshakti&theme=gotham&layout=compact&count_private=true&hide_border=true&hide=Jupyter%20Notebook,HTML,CSS,JavaScript,TypeScript,SCSS,Shell,Dockerfile,Makefile" alt="Top languages: Python, Go, Rust, Ruby" /></picture>
+    <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=rkfshakti&theme=gotham&layout=compact&count_private=true&hide_border=true&hide=Jupyter%20Notebook,HTML,CSS,JavaScript,TypeScript,SCSS,Shell,Dockerfile,Makefile" width="495" alt="Top languages: Python, Go, Rust, Ruby" />
   </a>
 </div>
 
