@@ -76,7 +76,7 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
   <h2>Open Source Contributions</h2>
 </div>
 
-I fix real bugs in production-grade AI infrastructure — agentic frameworks, LLM platforms, vector databases, AI tooling. The kind of issues that silently corrupt data, break under concurrency, or surface only at scale.
+I fix real bugs in production-grade AI infrastructure agentic frameworks, LLM platforms, vector databases, AI tooling. The kind of issues that silently corrupt data, break under concurrency, or surface only at scale.
 
 **Merged**
 
