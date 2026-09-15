@@ -38,10 +38,6 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>Python
             </td>
             <td align="center" width="96">
-                <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="48" height="48" alt="TypeScript" />
-                <br>TypeScript
-            </td>
-            <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=go" width="48" height="48" alt="Go" />
                 <br>Go
             </td>
@@ -53,24 +49,6 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <img src="https://cdn.simpleicons.org/postgresql" width="48" height="48" alt="SQL" />
                 <br>SQL
             </td>
-            <td align="center" width="96">
-                <img src="https://techstack-generator.vercel.app/graphql-icon.svg" width="48" height="48" alt="GraphQL" />
-                <br>GraphQL
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=pytorch" width="48" height="48" alt="PyTorch" />
-                <br>PyTorch
-            </td>
-            <td align="center" width="96">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="48" height="48" alt="scikit-learn" />
-                <br>scikit-learn
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
-                <br>Git
-            </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
                 <img src="https://cdn.simpleicons.org/langchain" width="48" height="48" alt="LangChain" />
                 <br>LangChain
@@ -84,37 +62,38 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>CrewAI
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/huggingface" width="48" height="48" alt="smolagents" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/huggingface" />
+                    <img src="https://cdn.simpleicons.org/huggingface" width="48" height="48" alt="smolagents" />
+                </picture>
                 <br>smolagents
             </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/run-llama" width="48" height="48" alt="LlamaIndex" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/run-llama" />
+                    <img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="48" height="48" alt="LlamaIndex" />
+                </picture>
                 <br>LlamaIndex
-            </td>
-            <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/microsoft/autogen" width="48" height="48" alt="AutoGen" />
-                <br>AutoGen
             </td>
             <td align="center" width="96">
                 <img src="https://cdn.simpleicons.org/pydantic" width="48" height="48" alt="Pydantic AI" />
                 <br>Pydantic AI
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/stanfordnlp" width="48" height="48" alt="DSPy" />
-                <br>DSPy
-            </td>
-            <td align="center" width="96">
                 <img src="https://cdn.simpleicons.org/haystack" width="48" height="48" alt="Haystack" />
                 <br>Haystack
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
                 <img src="https://avatars.githubusercontent.com/agno-agi" width="48" height="48" alt="Agno" />
                 <br>Agno
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/mem0ai" width="48" height="48" alt="Mem0" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/mem0ai" />
+                    <img src="https://raw.githubusercontent.com/mem0ai/mem0/main/server/dashboard/public/images/logos/logo-dark.png" width="48" height="48" alt="Mem0" />
+                </picture>
                 <br>Mem0
             </td>
             <td align="center" width="96">
@@ -129,8 +108,13 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <img src="https://cdn.simpleicons.org/n8n" width="48" height="48" alt="n8n" />
                 <br>n8n
             </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/topoteretes" width="48" height="48" alt="cognee" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/topoteretes" />
+                    <img src="https://raw.githubusercontent.com/topoteretes/cognee/main/assets/cognee-logo-transparent.png" width="48" height="48" alt="cognee" />
+                </picture>
                 <br>cognee
             </td>
             <td align="center" width="96">
@@ -138,21 +122,21 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>Neo4j
             </td>
             <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/apachekafka" width="48" height="48" alt="Kafka" />
-                <br>Kafka
-            </td>
-            <td align="center" width="96">
                 <img src="https://cdn.simpleicons.org/ray" width="48" height="48" alt="Ray" />
                 <br>Ray
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/openai" width="48" height="48" alt="OpenAI" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/openai" />
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/OpenAI_Logo.svg" width="48" height="48" alt="OpenAI" />
+                </picture>
                 <br>OpenAI
             </td>
             <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/anthropic/FFFFFF" width="48" height="48" alt="Anthropic" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/anthropic/FFFFFF" />
+                    <img src="https://cdn.simpleicons.org/anthropic" width="48" height="48" alt="Anthropic" />
+                </picture>
                 <br>Anthropic
             </td>
             <td align="center" width="96">
@@ -164,9 +148,14 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>Gemini
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/xai-org" width="48" height="48" alt="xAI" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/xai-org" />
+                    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/XAI_Logo.svg" width="48" height="48" alt="xAI" />
+                </picture>
                 <br>xAI
             </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
                 <img src="https://cdn.simpleicons.org/deepseek" width="48" height="48" alt="DeepSeek" />
                 <br>DeepSeek
@@ -180,17 +169,24 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>Hugging Face
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/groq" width="48" height="48" alt="Groq" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/groq" />
+                    <img src="https://groq.com/favicon.svg" width="48" height="48" alt="Groq" />
+                </picture>
                 <br>Groq
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/ollama/FFFFFF" width="48" height="48" alt="Ollama" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/ollama/FFFFFF" />
+                    <img src="https://cdn.simpleicons.org/ollama" width="48" height="48" alt="Ollama" />
+                </picture>
                 <br>Ollama
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/ggml" width="48" height="48" alt="llama.cpp" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/ggml" />
+                    <img src="https://cdn.simpleicons.org/ollama/1C3C3C" width="48" height="48" alt="llama.cpp" />
+                </picture>
                 <br>llama.cpp
             </td>
             <td align="center" width="96">
@@ -201,30 +197,13 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <img src="https://cdn.simpleicons.org/perplexity" width="48" height="48" alt="Perplexity" />
                 <br>Perplexity
             </td>
-            <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/fastapi" width="48" height="48" alt="FastAPI" />
-                <br>FastAPI
-            </td>
-            <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/redis" width="48" height="48" alt="Redis" />
-                <br>Redis
-            </td>
-            <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/celery" width="48" height="48" alt="Celery" />
-                <br>Celery
-            </td>
-            <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/uv" width="48" height="48" alt="uv" />
-                <br>uv
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" />
-                <br>Node.js
-            </td>
         </tr>
         <tr>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/chroma-core" width="48" height="48" alt="Chroma" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chroma-core/chroma/main/docs/mintlify/images/dark-logo.svg" />
+                    <img src="https://raw.githubusercontent.com/chroma-core/chroma/main/docs/mintlify/images/light-logo.svg" width="48" height="48" alt="Chroma" />
+                </picture>
                 <br>Chroma
             </td>
             <td align="center" width="96">
@@ -232,11 +211,17 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>Qdrant
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/weaviate" width="48" height="48" alt="Weaviate" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/weaviate" />
+                    <img src="https://weaviate.io/img/site/weaviate-logo-horizontal-light-1.svg" width="48" height="48" alt="Weaviate" />
+                </picture>
                 <br>Weaviate
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/pinecone-io" width="48" height="48" alt="Pinecone" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://mintcdn.com/pinecone/HsZKO51bNmpAasdT/logo/Pinecone-Full-Logo-White.svg" />
+                    <img src="https://mintcdn.com/pinecone/HsZKO51bNmpAasdT/logo/Pinecone-Full-Logo-Black.svg" width="48" height="48" alt="Pinecone" />
+                </picture>
                 <br>Pinecone
             </td>
             <td align="center" width="96">
@@ -248,19 +233,22 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>pgvector
             </td>
             <td align="center" width="96">
-                <img src="https://avatars.githubusercontent.com/facebookresearch" width="48" height="48" alt="FAISS" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://avatars.githubusercontent.com/facebookresearch" />
+                    <img src="https://cdn.simpleicons.org/meta/111111" width="48" height="48" alt="FAISS" />
+                </picture>
                 <br>FAISS
             </td>
             <td align="center" width="96">
                 <img src="https://cdn.simpleicons.org/apachespark" width="48" height="48" alt="Apache Spark" />
                 <br>Spark
             </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
                 <img src="https://cdn.simpleicons.org/apacheairflow" width="48" height="48" alt="Apache Airflow" />
                 <br>Airflow
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
                 <img src="https://cdn.simpleicons.org/mlflow" width="48" height="48" alt="MLflow" />
                 <br>MLflow
@@ -289,6 +277,8 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <img src="https://cdn.simpleicons.org/googlecloud" width="48" height="48" alt="GCP" />
                 <br>GCP
             </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="48" height="48" alt="Azure" />
                 <br>Azure
@@ -297,8 +287,6 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="48" height="48" alt="Docker" />
                 <br>Docker
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
                 <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="48" height="48" alt="Kubernetes" />
                 <br>Kubernetes
@@ -320,7 +308,28 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>Gradio
             </td>
             <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/cursor/FFFFFF" width="48" height="48" alt="Cursor" />
+                <img src="https://cdn.simpleicons.org/fastapi" width="48" height="48" alt="FastAPI" />
+                <br>FastAPI
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/redis" width="48" height="48" alt="Redis" />
+                <br>Redis
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/celery" width="48" height="48" alt="Celery" />
+                <br>Celery
+            </td>
+            <td align="center" width="96">
+                <img src="https://cdn.simpleicons.org/uv" width="48" height="48" alt="uv" />
+                <br>uv
+            </td>
+            <td align="center" width="96">
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/cursor/FFFFFF" />
+                    <img src="https://cdn.simpleicons.org/cursor" width="48" height="48" alt="Cursor" />
+                </picture>
                 <br>Cursor
             </td>
             <td align="center" width="96">
@@ -328,12 +337,19 @@ The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. T
                 <br>Windsurf
             </td>
             <td align="center" width="96">
-                <img src="https://cdn.simpleicons.org/githubcopilot/FFFFFF" width="48" height="48" alt="Copilot" />
+                <picture>
+                    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/githubcopilot/FFFFFF" />
+                    <img src="https://cdn.simpleicons.org/githubcopilot" width="48" height="48" alt="Copilot" />
+                </picture>
                 <br>Copilot
             </td>
             <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
                 <br>Linux
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+                <br>Git
             </td>
         </tr>
     </table>
