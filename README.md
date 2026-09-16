@@ -7,10 +7,14 @@
 
 <!-- Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
+[![X](https://img.shields.io/badge/X-@rkfshakti-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rkfshakti)
 [![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://rkfshakti.github.io)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
+
+![Profile views](https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&base=73&color=6A0DAD&style=flat)
+
 
 </div>
 
@@ -432,14 +436,6 @@ Open to architecture challenges, enterprise AI strategy, freelance engagements, 
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oneshaktimohapatra)
-[![X](https://img.shields.io/badge/X-@rkfshakti-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/rkfshakti)
-[![Email](https://img.shields.io/badge/Email-Reach%20Out-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rkfshakti@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rkfshakti)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://rkfshakti.github.io)
-[![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
-
-![Profile views](https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&base=73&color=6A0DAD&style=flat)
 
 </div>
 
