@@ -26,7 +26,7 @@
 
 I sit between stakeholders and systems, uncover what the business truly needs, and build autonomous AI architectures that deliver it at scale. Over 10 years across BFSI, CPG, energy, and healthcare; MBA from Liverpool Business School, UK.
 
-The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. The best AI systems are the ones nobody notices — they just work.
+The 10-day process that becomes 2 hours. The 3% error rate that drops to 0.5%. The best AI systems are the ones nobody notices they just work.
 
 ---
 
