@@ -388,7 +388,7 @@ I fix real bugs in production-grade AI infrastructure agentic frameworks, LLM pl
 | [openai/openai-python](https://github.com/openai/openai-python) | Drain remaining bytes after `[DONE]` before closing streaming responses |
 | [langgenius/dify](https://github.com/langgenius/dify) | PG logical replication fix; agent file type filtering; MCP client timeout fallback |
 | [chroma-core/chroma](https://github.com/chroma-core/chroma) | Embedding function correctness, FTS robustness, dependency hygiene |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Async native tool calling in the invocation loop |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Async native tool calling in the invocation loop ([#7634](https://github.com/crewAIInc/crewAI/pull/7634)) |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Log redaction for sensitive content; embedding dims auto-propagation |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | Code agent reliability and tool-use edge cases |
 
@@ -397,6 +397,15 @@ I fix real bugs in production-grade AI infrastructure agentic frameworks, LLM pl
 <div align="center">
   <h2>GitHub Stats</h2>
 </div>
+
+<div align="center">
+
+<a href="https://github.com/rkfshakti/oss-contributions"><img src="https://img.shields.io/badge/Open_PRs-38-2E86C1?style=for-the-badge&logo=gitbook&logoColor=white" alt="38 open PRs" /></a>
+<a href="https://github.com/rkfshakti/oss-contributions"><img src="https://img.shields.io/badge/Merged_PRs-18-28B463?style=for-the-badge&logo=gitmerge&logoColor=white" alt="18 merged PRs" /></a>
+<a href="https://github.com/rkfshakti/oss-contributions"><img src="https://img.shields.io/badge/Repos_Contributed-31-8E44AD?style=for-the-badge&logo=github&logoColor=white" alt="31 repositories contributed to" /></a>
+
+</div>
+<br>
 
 <div align="center">
   <a href="https://github.com/rkfshakti">
