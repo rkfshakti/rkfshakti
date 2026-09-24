@@ -449,9 +449,3 @@ Open to architecture challenges, enterprise AI strategy, freelance engagements, 
 </div>
 
 ---
-
-<div align="center">
-
-*Data first. Always.*
-
-</div>
