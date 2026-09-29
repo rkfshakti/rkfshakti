@@ -441,7 +441,7 @@ I fix real bugs in production-grade AI infrastructure agentic frameworks, LLM pl
   <h2>Let's Connect</h2>
 </div>
 
-Open to architecture challenges, enterprise AI strategy, freelance engagements, or startup ideas in the GenAI space. If you're building something that matters, let's talk.
+Open to architecture challenges, enterprise AI strategy, freelance engagements and projects, or startup ideas in the GenAI space. If you're building something that matters, let's talk.
 
 <div align="center">
 
