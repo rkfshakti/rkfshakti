@@ -375,22 +375,23 @@ I fix real bugs in production-grade AI infrastructure agentic frameworks, LLM pl
 |---|---|---|---|---|
 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | [langgenius/dify](https://github.com/langgenius/dify) | [chroma-core/chroma](https://github.com/chroma-core/chroma) | [andrewyng/openworker](https://github.com/andrewyng/openworker) | [optuna/optuna](https://github.com/optuna/optuna) |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | [topoteretes/cognee-community](https://github.com/topoteretes/cognee-community) | [seevee/cap_alerts](https://github.com/seevee/cap_alerts) | [Q00/ouroboros](https://github.com/Q00/ouroboros) | [thomas-villani/all2md](https://github.com/thomas-villani/all2md) |
-| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | [earendil-works/pi](https://github.com/earendil-works/pi) | | | |
+| [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | [earendil-works/pi](https://github.com/earendil-works/pi) | [livekit/agents](https://github.com/livekit/agents) | [morluto/rea](https://github.com/morluto/rea) | |
 
 **Notable open PRs**
 
 | Repo | Contribution |
 |------|-------------|
-| [livekit/sip](https://github.com/livekit/sip) | In-dialog request routing via proxy Record-Route; media-drain before BYE to prevent voicemail clipping |
+| [livekit/sip](https://github.com/livekit/sip) | In-dialog request routing via the INVITE's Record-Route (RFC 3261 §12.1.1); media-drain before BYE to prevent voicemail clipping |
 | [livekit/livekit](https://github.com/livekit/livekit) | Room re-create race: pre-clear room state so same-name recreate gets a fresh SID |
 | [livekit/protocol](https://github.com/livekit/protocol) | SIP header value cap raised to 4KB for carrier tokens (X-Twilio-CallToken) |
-| [livekit/agents](https://github.com/livekit/agents) | Soniox final-span timing: all timed tokens, never regress end_time |
-| [openai/openai-python](https://github.com/openai/openai-python) | Drain remaining bytes after `[DONE]` before closing streaming responses |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 11 open correctness PRs: progress-narration loop retry, RFC 2047-safe sender parsing, 4xx/5xx stream-error classification, digit-string list counters |
 | [langgenius/dify](https://github.com/langgenius/dify) | PG logical replication fix; agent file type filtering; MCP client timeout fallback |
-| [chroma-core/chroma](https://github.com/chroma-core/chroma) | Embedding function correctness, FTS robustness, dependency hygiene |
-| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Async native tool calling in the invocation loop ([#7634](https://github.com/crewAIInc/crewAI/pull/7634)) |
+| [chroma-core/chroma](https://github.com/chroma-core/chroma) | Embedding-function config correctness, NUL-byte FTS5 corruption guard, client path normalization |
+| [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) | Async native tool calling on the kickoff caller's event loop ([#8354](https://github.com/crewAIInc/crewAI/pull/8354)) |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | Log redaction for sensitive content; embedding dims auto-propagation |
 | [huggingface/smolagents](https://github.com/huggingface/smolagents) | Code agent reliability and tool-use edge cases |
+| [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio) | ModelProvider LRU eviction + idle TTL sweeper — fixes the GPU/MPS memory leak |
+| [andrewyng/openworker](https://github.com/andrewyng/openworker) | Scheduled-run tool-role 400 + silent `last_status=ok` failure masking |
 
 ---
 
