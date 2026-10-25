@@ -13,7 +13,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-8B5CF6?style=for-the-badge&logo=githubpages&logoColor=white)](https://rkfshakti.github.io)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Support%20My%20Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/rkfshakti)
 
-![Profile views](https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&base=73&color=6A0DAD&style=flat)
+![Profile views](https://komarev.com/ghpvc/?username=rkfshakti&label=Profile%20Views&base=4439&color=6A0DAD&style=flat)
 
 
 </div>
