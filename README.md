@@ -395,49 +395,6 @@ I fix real bugs in production-grade AI infrastructure agentic frameworks, LLM pl
 ---
 
 <div align="center">
-  <h2>GitHub Stats</h2>
-</div>
-
-<div align="center">
-
-<a href="https://github.com/rkfshakti/oss-contributions"><img src="https://img.shields.io/badge/Open_PRs-48-2E86C1?style=for-the-badge&logo=gitbook&logoColor=white" alt="48 open PRs" /></a>
-<a href="https://github.com/rkfshakti/oss-contributions"><img src="https://img.shields.io/badge/Merged_PRs-18-28B463?style=for-the-badge&logo=gitmerge&logoColor=white" alt="18 merged PRs" /></a>
-<a href="https://github.com/rkfshakti/oss-contributions"><img src="https://img.shields.io/badge/Repos_Contributed-32-8E44AD?style=for-the-badge&logo=github&logoColor=white" alt="32 repositories contributed to" /></a>
-
-</div>
-<br>
-
-<div align="center">
-  <a href="https://github.com/rkfshakti">
-    <img src="https://github-readme-stats-one-bice.vercel.app/api?username=rkfshakti&theme=gotham&show_icons=true&count_private=true&include_all_commits=true&role=OWNER,ORGANIZATION_MEMBER&hide_border=true" width="49%" alt="rkfshakti's GitHub stats" />
-  </a>
-  <a href="https://git.io/streak-stats">
-    <img src="./profile/streak.svg" width="49%" alt="rkfshakti's streak stats" />
-  </a>
-</div>
-<br>
-
-<div align="center">
-  <a href="https://github.com/rkfshakti">
-    <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=rkfshakti&theme=gotham&layout=compact&count_private=true&hide_border=true&hide=Jupyter%20Notebook,HTML,CSS,JavaScript,TypeScript,SCSS,Shell,Dockerfile,Makefile" width="495" alt="Top languages: Python, Go, Rust, Ruby" />
-  </a>
-</div>
-
----
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rkfshakti/rkfshakti/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rkfshakti/rkfshakti/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/rkfshakti/rkfshakti/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
-
-<div align="center">
   <h2>Let's Connect</h2>
 </div>
 
